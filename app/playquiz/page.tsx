@@ -143,7 +143,8 @@ export default function PlayQuiz() {
                   })}
                 </div>
                 <p className="text-zinc-400 text-sm mt-6 md:mt-10 font-medium text-center">
-                  Score: {score} / {shuffledQuestions.length}
+                  Score: {score}
+                  {/* / {shuffledQuestions.length} */}
                 </p>
               </div>
             ) : (
