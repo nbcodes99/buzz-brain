@@ -1,0 +1,696 @@
+[
+  {
+    "category": "games",
+    "question": "In Call of Duty Mobile, which weapon is known for its high damage and low recoil?",
+    "options": ["AK-47", "M4LMG", "DL Q33", "RPD"],
+    "answer": "AK-47"
+  },
+  {
+    "category": "games",
+    "question": "What is the maximum level a player can reach in Call of Duty Mobile's Battle Pass season?",
+    "options": ["50", "70", "100", "150"],
+    "answer": "100"
+  },
+  {
+    "category": "games",
+    "question": "Which map is NOT part of Call of Duty Mobile's multiplayer mode?",
+    "options": ["Crash", "Nuketown", "Hijacked", "San Siro"],
+    "answer": "San Siro"
+  },
+  {
+    "category": "games",
+    "question": "In Call of Duty Mobile, what is the default number of players in a Battle Royale match?",
+    "options": ["50", "60", "75", "100"],
+    "answer": "100"
+  },
+  {
+    "category": "games",
+    "question": "Which perk in Call of Duty Mobile allows players to regenerate health faster?",
+    "options": ["Lightweight", "Toughness", "Gunslinger", "Cold Blooded"],
+    "answer": "Toughness"
+  },
+  {
+    "category": "games",
+    "question": "What does the UAV scorestreak do in Call of Duty Mobile?",
+    "options": [
+      "Reveals enemy positions on the mini-map",
+      "Drops ammo for teammates",
+      "Deploys a defensive shield",
+      "Calls in an airstrike"
+    ],
+    "answer": "Reveals enemy positions on the mini-map"
+  },
+  {
+    "category": "games",
+    "question": "Which operator skill is NOT available in Call of Duty Mobile?",
+    "options": ["War Machine", "Tempest", "Gravity Spikes", "Dragon Breath"],
+    "answer": "Dragon Breath"
+  },
+  {
+    "category": "games",
+    "question": "How many players are in a standard Call of Duty Mobile Team Deathmatch?",
+    "options": ["4v4", "5v5", "6v6", "8v8"],
+    "answer": "5v5"
+  },
+  {
+    "category": "games",
+    "question": "What is the name of the shotgun that deals massive damage up close in Call of Duty Mobile?",
+    "options": ["KRM-262", "Striker", "Echo", "R870"],
+    "answer": "KRM-262"
+  },
+  {
+    "category": "games",
+    "question": "Which Call of Duty Mobile mode involves planting or defusing a bomb?",
+    "options": [
+      "Domination",
+      "Hardpoint",
+      "Search and Destroy",
+      "Kill Confirmed"
+    ],
+    "answer": "Search and Destroy"
+  },
+  {
+    "category": "games",
+    "question": "In Call of Duty Mobile, what is the cooldown time for using the Tactical Grenade?",
+    "options": ["20 seconds", "30 seconds", "45 seconds", "60 seconds"],
+    "answer": "30 seconds"
+  },
+  {
+    "category": "games",
+    "question": "Which weapon attachment reduces weapon recoil in Call of Duty Mobile?",
+    "options": ["Suppressor", "Foregrip", "Extended Mag", "Quickdraw"],
+    "answer": "Foregrip"
+  },
+  {
+    "category": "games",
+    "question": "Which of the following is NOT a Call of Duty Mobile game mode?",
+    "options": ["Battle Royale", "Gun Game", "Capture the Flag", "Zombies"],
+    "answer": "Zombies"
+  },
+  {
+    "category": "games",
+    "question": "What is the main currency used to purchase items in Call of Duty Mobile?",
+    "options": ["CP", "COD Points", "Credits", "Coins"],
+    "answer": "CP"
+  },
+  {
+    "category": "games",
+    "question": "Which character in Call of Duty Mobile is known as 'Outrider'?",
+    "options": [
+      "A female sniper",
+      "A heavy machine gunner",
+      "A stealth assassin",
+      "A medic"
+    ],
+    "answer": "A female sniper"
+  },
+  {
+    "category": "games",
+    "question": "What happens if you are downed but not revived in Call of Duty Mobile's Battle Royale mode?",
+    "options": [
+      "You die and respawn immediately",
+      "You become a spectator",
+      "You get revived automatically after 10 seconds",
+      "You can crawl but cannot shoot"
+    ],
+    "answer": "You become a spectator"
+  },
+  {
+    "category": "games",
+    "question": "Which sniper rifle in Call of Duty Mobile has a quick ADS (Aim Down Sight) time?",
+    "options": ["DL Q33", "Arctic .50", "Locus", "M21 EBR"],
+    "answer": "DL Q33"
+  },
+  {
+    "category": "games",
+    "question": "What is the maximum rank in Call of Duty Mobile multiplayer mode?",
+    "options": ["Legendary", "Master", "Grandmaster", "Elite"],
+    "answer": "Legendary"
+  },
+  {
+    "category": "games",
+    "question": "Which of these is a melee weapon in Call of Duty Mobile?",
+    "options": ["Knife", "Wrench", "Baseball Bat", "Crowbar"],
+    "answer": "Knife"
+  },
+  {
+    "category": "games",
+    "question": "Which of these killstreaks can you deploy in Call of Duty Mobile?",
+    "options": [
+      "RC-XD",
+      "Predator Missile",
+      "Care Package",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "category": "games",
+    "question": "What is the name of the popular battle royale map in Call of Duty Mobile?",
+    "options": ["Isolated", "Verdansk", "Erangel", "Miramar"],
+    "answer": "Isolated"
+  },
+  {
+    "category": "games",
+    "question": "Which Call of Duty Mobile mode requires capturing and holding points on the map?",
+    "options": [
+      "Hardpoint",
+      "Domination",
+      "Search and Destroy",
+      "Team Deathmatch"
+    ],
+    "answer": "Domination"
+  },
+  {
+    "category": "games",
+    "question": "In Call of Duty Mobile, what is the purpose of the Stim Shot equipment?",
+    "options": [
+      "To heal faster",
+      "To increase speed temporarily",
+      "To detect enemies",
+      "To cause an explosion"
+    ],
+    "answer": "To heal faster"
+  },
+  {
+    "category": "games",
+    "question": "Which weapon class does the 'RPD' belong to in Call of Duty Mobile?",
+    "options": ["SMG", "LMG", "Assault Rifle", "Sniper"],
+    "answer": "LMG"
+  },
+  {
+    "category": "games",
+    "question": "What type of grenade is the 'Molotov Cocktail' in Call of Duty Mobile?",
+    "options": ["Flashbang", "Smoke", "Incendiary", "Frag"],
+    "answer": "Incendiary"
+  },
+  {
+    "category": "games",
+    "question": "Which of these is a Call of Duty Mobile seasonal event?",
+    "options": [
+      "Winter Siege",
+      "Summer Bash",
+      "Halloween Havoc",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "category": "games",
+    "question": "In Call of Duty Mobile, which attachment improves ADS speed?",
+    "options": ["Quickdraw", "Suppressor", "Extended Mag", "Stock"],
+    "answer": "Quickdraw"
+  },
+  {
+    "category": "games",
+    "question": "What is the role of 'Medic' in Call of Duty Mobile?",
+    "options": [
+      "Heal teammates and revive faster",
+      "Provide extra ammo",
+      "Deploy UAVs",
+      "Call in airstrikes"
+    ],
+    "answer": "Heal teammates and revive faster"
+  },
+  {
+    "category": "games",
+    "question": "Which Call of Duty Mobile weapon is classified as a sniper rifle?",
+    "options": ["DL Q33", "KN-44", "MSMC", "Striker"],
+    "answer": "DL Q33"
+  },
+  {
+    "category": "games",
+    "question": "Which button is used to reload in Call of Duty Mobile by default?",
+    "options": ["R", "X", "Square", "Triangle"],
+    "answer": "R"
+  },
+  {
+    "category": "games",
+    "question": "Which of these is a scorestreak in Call of Duty Mobile?",
+    "options": [
+      "Counter UAV",
+      "Guardian",
+      "Lightning Strike",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "category": "games",
+    "question": "What does the 'Suppressor' attachment do in Call of Duty Mobile?",
+    "options": [
+      "Reduces sound of gunfire and hides muzzle flash",
+      "Increases bullet speed",
+      "Improves reload speed",
+      "Increases damage"
+    ],
+    "answer": "Reduces sound of gunfire and hides muzzle flash"
+  },
+  {
+    "category": "games",
+    "question": "In Call of Duty Mobile, which character is known for using the Tempest operator skill?",
+    "options": ["Ajax", "Outrider", "Reaper", "Seraph"],
+    "answer": "Seraph"
+  },
+  {
+    "category": "games",
+    "question": "Which mode in Call of Duty Mobile requires you to collect dog tags from killed enemies?",
+    "options": [
+      "Kill Confirmed",
+      "Search and Destroy",
+      "Team Deathmatch",
+      "Hardpoint"
+    ],
+    "answer": "Kill Confirmed"
+  },
+  {
+    "category": "games",
+    "question": "Which of these is NOT a type of grenade in Call of Duty Mobile?",
+    "options": ["Smoke", "Flashbang", "EMP", "Ice"],
+    "answer": "Ice"
+  },
+  {
+    "category": "games",
+    "question": "What is the default health of a player in Call of Duty Mobile?",
+    "options": ["100", "150", "200", "75"],
+    "answer": "100"
+  },
+  {
+    "category": "games",
+    "question": "Which Call of Duty Mobile weapon uses 9mm ammunition?",
+    "options": ["MSMC", "AK-47", "DL Q33", "M21 EBR"],
+    "answer": "MSMC"
+  },
+  {
+    "category": "games",
+    "question": "Which perk reduces explosive damage in Call of Duty Mobile?",
+    "options": ["Lightweight", "Toughness", "Blast Shield", "Hardline"],
+    "answer": "Blast Shield"
+  },
+
+  {
+    "category": "games",
+    "question": "Which FIFA game introduced the 'FUT' (FIFA Ultimate Team) mode?",
+    "options": ["FIFA 08", "FIFA 09", "FIFA 10", "FIFA 11"],
+    "answer": "FIFA 09"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game introduced the VOLTA street football mode?",
+    "options": ["FIFA 19", "FIFA 20", "FIFA 21", "FIFA 22"],
+    "answer": "FIFA 20"
+  },
+  {
+    "category": "games",
+    "question": "In FIFA, what does 'Neymar' primarily excel at?",
+    "options": ["Defending", "Dribbling", "Goalkeeping", "Heading"],
+    "answer": "Dribbling"
+  },
+  {
+    "category": "games",
+    "question": "Which position is Lionel Messi commonly assigned in FIFA games?",
+    "options": ["Striker", "Attacking Midfielder", "Goalkeeper", "Defender"],
+    "answer": "Attacking Midfielder"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA mode allows you to manage a football club over multiple seasons?",
+    "options": ["Career Mode", "Ultimate Team", "Kick-Off", "Volta"],
+    "answer": "Career Mode"
+  },
+  {
+    "category": "games",
+    "question": "What does the chemistry rating affect in FIFA Ultimate Team?",
+    "options": [
+      "Player performance on the pitch",
+      "Team finances",
+      "Stadium appearance",
+      "Commentary variety"
+    ],
+    "answer": "Player performance on the pitch"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game first featured women's national teams?",
+    "options": ["FIFA 16", "FIFA 17", "FIFA 18", "FIFA 19"],
+    "answer": "FIFA 16"
+  },
+  {
+    "category": "games",
+    "question": "In FIFA, what is the maximum overall rating for any player?",
+    "options": ["99", "100", "95", "98"],
+    "answer": "99"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game introduced dynamic weather effects?",
+    "options": ["FIFA 17", "FIFA 18", "FIFA 19", "FIFA 20"],
+    "answer": "FIFA 18"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA mode lets you play online matches against others worldwide?",
+    "options": [
+      "Online Seasons",
+      "Career Mode",
+      "Practice Arena",
+      "Tournament Mode"
+    ],
+    "answer": "Online Seasons"
+  },
+  {
+    "category": "games",
+    "question": "What is the default duration of a half in FIFA matches?",
+    "options": ["6 minutes", "10 minutes", "12 minutes", "15 minutes"],
+    "answer": "6 minutes"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game is known for the 'The Journey' story mode?",
+    "options": ["FIFA 17", "FIFA 18", "FIFA 19", "FIFA 20"],
+    "answer": "FIFA 17"
+  },
+  {
+    "category": "games",
+    "question": "Which country is Cristiano Ronaldo from in FIFA games?",
+    "options": ["Portugal", "Spain", "Brazil", "Argentina"],
+    "answer": "Portugal"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game introduced the Icon players (legendary retired players)?",
+    "options": ["FIFA 15", "FIFA 16", "FIFA 17", "FIFA 18"],
+    "answer": "FIFA 17"
+  },
+  {
+    "category": "games",
+    "question": "What does 'FUT' stand for in FIFA games?",
+    "options": [
+      "FIFA Ultimate Team",
+      "FIFA Ultimate Tactics",
+      "Football User Team",
+      "Fast Ultimate Team"
+    ],
+    "answer": "FIFA Ultimate Team"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game introduced the 'Team of the Year' special cards?",
+    "options": ["FIFA 15", "FIFA 16", "FIFA 17", "FIFA 18"],
+    "answer": "FIFA 17"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA mode focuses on building a team with player cards and coins?",
+    "options": ["Ultimate Team", "Career Mode", "Kick-Off", "Volta"],
+    "answer": "Ultimate Team"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game introduced Pro Clubs mode where players create and control a single footballer?",
+    "options": ["FIFA 15", "FIFA 16", "FIFA 17", "FIFA 18"],
+    "answer": "FIFA 16"
+  },
+  {
+    "category": "games",
+    "question": "In FIFA, what button is used to perform a skill move on consoles?",
+    "options": ["Right Stick", "Left Stick", "R2", "L1"],
+    "answer": "Right Stick"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game featured the Bundesliga for the first time?",
+    "options": ["FIFA 96", "FIFA 98", "FIFA 99", "FIFA 2000"],
+    "answer": "FIFA 98"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game introduced the 'Set Piece Controls' for free kicks and corners?",
+    "options": ["FIFA 12", "FIFA 13", "FIFA 14", "FIFA 15"],
+    "answer": "FIFA 12"
+  },
+  {
+    "category": "games",
+    "question": "What does the 'Sprint' button do in FIFA games?",
+    "options": [
+      "Increase player speed temporarily",
+      "Pass the ball quickly",
+      "Shoot with power",
+      "Tackle an opponent"
+    ],
+    "answer": "Increase player speed temporarily"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game introduced the 'Volta' street football mode?",
+    "options": ["FIFA 19", "FIFA 20", "FIFA 21", "FIFA 22"],
+    "answer": "FIFA 20"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game introduced the FUT Draft mode?",
+    "options": ["FIFA 16", "FIFA 17", "FIFA 18", "FIFA 19"],
+    "answer": "FIFA 17"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA game introduced the 'Practice Arena' feature?",
+    "options": ["FIFA 18", "FIFA 19", "FIFA 20", "FIFA 21"],
+    "answer": "FIFA 18"
+  },
+  {
+    "category": "games",
+    "question": "In FIFA, what is the maximum squad size in Ultimate Team?",
+    "options": ["23", "25", "30", "35"],
+    "answer": "23"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game first added the 'FIFA Trainer' for gameplay assistance?",
+    "options": ["FIFA 11", "FIFA 12", "FIFA 13", "FIFA 14"],
+    "answer": "FIFA 12"
+  },
+  {
+    "category": "games",
+    "question": "In FIFA, which skill move is performed by rotating the right stick in a full circle?",
+    "options": ["Ball Roll", "Roulette", "Heel to Heel Flick", "Fake Shot"],
+    "answer": "Roulette"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game introduced the 'Player Career' mode?",
+    "options": ["FIFA 14", "FIFA 15", "FIFA 16", "FIFA 17"],
+    "answer": "FIFA 14"
+  },
+  {
+    "category": "games",
+    "question": "In FIFA Ultimate Team, what is the currency used to buy players and packs?",
+    "options": ["Coins", "Credits", "Points", "Tokens"],
+    "answer": "Coins"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA EA Sports game introduced 'The Journey: Champions' story continuation?",
+    "options": ["FIFA 18", "FIFA 19", "FIFA 20", "FIFA 21"],
+    "answer": "FIFA 18"
+  },
+  {
+    "category": "games",
+    "question": "Which FIFA mode allows you to play football with small teams (3v3 or 4v4)?",
+    "options": ["Volta", "Career Mode", "Kick-Off", "Online Seasons"],
+    "answer": "Volta"
+  },
+
+  {
+    "category": "games",
+    "question": "In which game do players compete to destroy the enemy's Nexus?",
+    "options": ["League of Legends", "Dota 2", "Smite", "Overwatch"],
+    "answer": "League of Legends"
+  },
+  {
+    "category": "games",
+    "question": "What is the name of the fictional world where The Legend of Zelda series is set?",
+    "options": ["Hyrule", "Tamriel", "Kanto", "Azeroth"],
+    "answer": "Hyrule"
+  },
+  {
+    "category": "games",
+    "question": "In Minecraft, which tool is needed to mine diamonds?",
+    "options": [
+      "Wooden Pickaxe",
+      "Stone Pickaxe",
+      "Iron Pickaxe",
+      "Gold Pickaxe"
+    ],
+    "answer": "Iron Pickaxe"
+  },
+  {
+    "category": "games",
+    "question": "Which game popularized the battle royale genre?",
+    "options": ["Fortnite", "PUBG", "Apex Legends", "H1Z1"],
+    "answer": "PUBG"
+  },
+  {
+    "category": "games",
+    "question": "In Super Mario Bros, who is the main antagonist?",
+    "options": ["Bowser", "Wario", "Donkey Kong", "Koopa Troopa"],
+    "answer": "Bowser"
+  },
+  {
+    "category": "games",
+    "question": "Which game is known for the phrase, 'The cake is a lie'?",
+    "options": ["Portal", "Half-Life", "Bioshock", "Halo"],
+    "answer": "Portal"
+  },
+  {
+    "category": "games",
+    "question": "What is the name of the main character in the Halo series?",
+    "options": ["Master Chief", "Marcus Fenix", "Doomguy", "Samus Aran"],
+    "answer": "Master Chief"
+  },
+  {
+    "category": "games",
+    "question": "Which game features a map called 'Dust II'?",
+    "options": ["Counter-Strike", "Call of Duty", "Valorant", "Overwatch"],
+    "answer": "Counter-Strike"
+  },
+  {
+    "category": "games",
+    "question": "In Overwatch, what is the name of the character who uses a bow?",
+    "options": ["Hanzo", "Widowmaker", "Genji", "Tracer"],
+    "answer": "Hanzo"
+  },
+  {
+    "category": "games",
+    "question": "Which game series is known for the phrase 'Finish Him'?",
+    "options": ["Mortal Kombat", "Street Fighter", "Tekken", "Soulcalibur"],
+    "answer": "Mortal Kombat"
+  },
+  {
+    "category": "games",
+    "question": "Which game features a protagonist named 'Lara Croft'?",
+    "options": ["Tomb Raider", "Uncharted", "Assassin's Creed", "Gears of War"],
+    "answer": "Tomb Raider"
+  },
+  {
+    "category": "games",
+    "question": "What is the primary resource collected in StarCraft to build units?",
+    "options": ["Minerals", "Gold", "Mana", "Gas"],
+    "answer": "Minerals"
+  },
+  {
+    "category": "games",
+    "question": "Which game popularized the 'zombie survival' genre with co-op gameplay?",
+    "options": [
+      "Left 4 Dead",
+      "Resident Evil",
+      "Dead Rising",
+      "The Last of Us"
+    ],
+    "answer": "Left 4 Dead"
+  },
+  {
+    "category": "games",
+    "question": "In which game do players collect 'Pokémon'?",
+    "options": ["Pokémon", "Digimon", "Yu-Gi-Oh!", "Monster Hunter"],
+    "answer": "Pokémon"
+  },
+  {
+    "category": "games",
+    "question": "Which popular game features the character 'Geralt of Rivia'?",
+    "options": ["The Witcher 3", "Skyrim", "Dragon Age", "Dark Souls"],
+    "answer": "The Witcher 3"
+  },
+  {
+    "category": "games",
+    "question": "What is the name of the city in Grand Theft Auto: San Andreas?",
+    "options": ["Los Santos", "Vice City", "Liberty City", "San Fierro"],
+    "answer": "Los Santos"
+  },
+  {
+    "category": "games",
+    "question": "In which game do players build and manage a theme park?",
+    "options": [
+      "RollerCoaster Tycoon",
+      "SimCity",
+      "Zoo Tycoon",
+      "Planet Coaster"
+    ],
+    "answer": "RollerCoaster Tycoon"
+  },
+  {
+    "category": "games",
+    "question": "What is the main goal in Among Us?",
+    "options": [
+      "Complete tasks and identify impostors",
+      "Build bases and attack enemies",
+      "Collect cards and battle opponents",
+      "Race to the finish line"
+    ],
+    "answer": "Complete tasks and identify impostors"
+  },
+  {
+    "category": "games",
+    "question": "Which game franchise features the characters Solid Snake and Big Boss?",
+    "options": ["Metal Gear", "Call of Duty", "Halo", "Gears of War"],
+    "answer": "Metal Gear"
+  },
+  {
+    "category": "games",
+    "question": "Which game is set in the post-apocalyptic world of the 'Commonwealth'?",
+    "options": ["Fallout 4", "Metro Exodus", "The Last of Us", "Borderlands"],
+    "answer": "Fallout 4"
+  },
+  {
+    "category": "games",
+    "question": "What is the name of the main character in the God of War series?",
+    "options": ["Kratos", "Atreus", "Zeus", "Hercules"],
+    "answer": "Kratos"
+  },
+  {
+    "category": "games",
+    "question": "Which game involves catching monsters and using cards to battle?",
+    "options": [
+      "Yu-Gi-Oh!",
+      "Magic: The Gathering",
+      "Hearthstone",
+      "Pokémon TCG"
+    ],
+    "answer": "Yu-Gi-Oh!"
+  },
+  {
+    "category": "games",
+    "question": "Which game is known for the 'Red Ring of Death' error?",
+    "options": ["Xbox 360", "PlayStation 3", "Nintendo Wii", "Sega Dreamcast"],
+    "answer": "Xbox 360"
+  },
+  {
+    "category": "games",
+    "question": "Which fighting game features characters like Ryu, Ken, and Chun-Li?",
+    "options": ["Street Fighter", "Tekken", "Mortal Kombat", "Soulcalibur"],
+    "answer": "Street Fighter"
+  },
+  {
+    "category": "games",
+    "question": "Which game has a character named 'Pac-Man'?",
+    "options": ["Pac-Man", "Donkey Kong", "Mario", "Sonic the Hedgehog"],
+    "answer": "Pac-Man"
+  },
+  {
+    "category": "games",
+    "question": "In which game do players build bases and command armies in a medieval setting?",
+    "options": [
+      "Age of Empires",
+      "Civilization",
+      "Total War",
+      "Command & Conquer"
+    ],
+    "answer": "Age of Empires"
+  },
+  {
+    "category": "games",
+    "question": "Which game features the phrase 'War. War never changes'?",
+    "options": ["Fallout", "Call of Duty", "Halo", "Gears of War"],
+    "answer": "Fallout"
+  }
+]

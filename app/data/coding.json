@@ -1,0 +1,1044 @@
+[
+  {
+    "category": "Coding",
+    "question": "What does 'var' keyword do in JavaScript?",
+    "options": [
+      "Declares a block-scoped variable",
+      "Declares a function-scoped variable",
+      "Declares a constant",
+      "Declares a global variable only"
+    ],
+    "answer": "Declares a function-scoped variable"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method is used to add an element to the end of an array in JavaScript?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "category": "Coding",
+    "question": "What does '===' operator check in JavaScript?",
+    "options": [
+      "Checks only value equality",
+      "Checks only type equality",
+      "Checks value and type equality",
+      "Checks inequality"
+    ],
+    "answer": "Checks value and type equality"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, how do you create a function?",
+    "options": [
+      "function myFunc():",
+      "def myFunc():",
+      "create myFunc():",
+      "func myFunc():"
+    ],
+    "answer": "def myFunc():"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword is used to handle exceptions in Java?",
+    "options": ["try", "catch", "throw", "final"],
+    "answer": "try"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the output of `console.log(typeof null)` in JavaScript?",
+    "options": ["null", "undefined", "object", "boolean"],
+    "answer": "object"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is NOT a primitive data type in JavaScript?",
+    "options": ["string", "number", "boolean", "array"],
+    "answer": "array"
+  },
+  {
+    "category": "Coding",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Colorful Style Sheets",
+      "Creative Style System",
+      "Computer Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "category": "Coding",
+    "question": "In HTML, which tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "category": "Coding",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Sequential Query Language",
+      "Standard Question Language"
+    ],
+    "answer": "Structured Query Language"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": ["class", "style", "font", "styles"],
+    "answer": "style"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is a JavaScript framework?",
+    "options": ["Laravel", "Django", "React", "Rails"],
+    "answer": "React"
+  },
+  {
+    "category": "Coding",
+    "question": "What keyword is used to declare a constant in JavaScript?",
+    "options": ["let", "var", "const", "constant"],
+    "answer": "const"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, which of these is a tuple?",
+    "options": ["[1, 2, 3]", "{1, 2, 3}", "(1, 2, 3)", "<1, 2, 3>"],
+    "answer": "(1, 2, 3)"
+  },
+  {
+    "category": "Coding",
+    "question": "What symbol is used to comment a single line in JavaScript?",
+    "options": ["//", "/*", "#", "<!--"],
+    "answer": "//"
+  },
+  {
+    "category": "Coding",
+    "question": "Which language is primarily used for Android development?",
+    "options": ["Swift", "Java", "Kotlin", "C#"],
+    "answer": "Kotlin"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML tag is used to define a table row?",
+    "options": ["<td>", "<tr>", "<th>", "<table>"],
+    "answer": "<tr>"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is a JavaScript package manager?",
+    "options": ["npm", "pip", "gem", "composer"],
+    "answer": "npm"
+  },
+  {
+    "category": "Coding",
+    "question": "In CSS, how do you select an element with id 'header'?",
+    "options": ["header", ".header", "#header", "*header"],
+    "answer": "#header"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the default HTTP method used by forms?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "answer": "GET"
+  },
+  {
+    "category": "Coding",
+    "question": "Which Python keyword is used for loops?",
+    "options": ["for", "loop", "repeat", "while"],
+    "answer": "for"
+  },
+  {
+    "category": "Coding",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["^", "**", "%", "exp()"],
+    "answer": "**"
+  },
+  {
+    "category": "Coding",
+    "question": "In Java, what does JVM stand for?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Verified Method",
+      "Java Variable Modifier",
+      "Java Visual Model"
+    ],
+    "answer": "Java Virtual Machine"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method removes the last element from an array in JavaScript?",
+    "options": ["pop()", "push()", "shift()", "unshift()"],
+    "answer": "pop()"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is NOT a loop in JavaScript?",
+    "options": ["for", "while", "repeat", "do...while"],
+    "answer": "repeat"
+  },
+  {
+    "category": "Coding",
+    "question": "What does JSON stand for?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Simple Object Notation",
+      "JavaScript Original Notation",
+      "Java Serialized Object Notation"
+    ],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "category": "Coding",
+    "question": "Which symbol is used for logical AND in JavaScript?",
+    "options": ["&", "&&", "||", "!"],
+    "answer": "&&"
+  },
+  {
+    "category": "Coding",
+    "question": "What tag is used to insert an image in HTML?",
+    "options": ["<img>", "<image>", "<src>", "<picture>"],
+    "answer": "<img>"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is a valid way to declare an array in JavaScript?",
+    "options": ["var arr = []", "var arr = {}", "var arr = ()", "var arr = <>"],
+    "answer": "var arr = []"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the result of 'typeof NaN' in JavaScript?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML element defines the title of a document?",
+    "options": ["<title>", "<head>", "<header>", "<meta>"],
+    "answer": "<title>"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the correct syntax for a for loop in JavaScript?",
+    "options": [
+      "for (let i=0; i<5; i++)",
+      "for (i=0; i<5)",
+      "loop (let i=0; i<5)",
+      "foreach (i in 5)"
+    ],
+    "answer": "for (let i=0; i<5; i++)"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, which data type is immutable?",
+    "options": ["list", "dictionary", "tuple", "set"],
+    "answer": "tuple"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the file extension for Python files?",
+    "options": [".py", ".java", ".js", ".pt"],
+    "answer": ".py"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends"
+  },
+  {
+    "category": "Coding",
+    "question": "What does HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "HighText Transfer Protocol",
+      "Hyper Transfer Text Protocol"
+    ],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method converts a string to an integer in JavaScript?",
+    "options": ["parseInt()", "toInt()", "int()", "convert()"],
+    "answer": "parseInt()"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword creates a new object in JavaScript?",
+    "options": ["new", "create", "object", "class"],
+    "answer": "new"
+  },
+  {
+    "category": "Coding",
+    "question": "Which CSS property changes text color?",
+    "options": ["color", "font-color", "text-color", "font-style"],
+    "answer": "color"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the output of 'console.log(2 + '2')' in JavaScript?",
+    "options": ["4", "22", "NaN", "Error"],
+    "answer": "22"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is used to store multiple values in a single variable in JavaScript?",
+    "options": ["object", "array", "function", "string"],
+    "answer": "array"
+  },
+  {
+    "category": "Coding",
+    "question": "In JavaScript, how do you create an anonymous function?",
+    "options": [
+      "function() {}",
+      "anonymous() {}",
+      "func() {}",
+      "new function() {}"
+    ],
+    "answer": "function() {}"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML attribute specifies an alternate text for an image?",
+    "options": ["alt", "title", "src", "href"],
+    "answer": "alt"
+  },
+  {
+    "category": "Coding",
+    "question": "Which symbol is used to indicate an ID selector in CSS?",
+    "options": ["#", ".", "*", "$"],
+    "answer": "#"
+  },
+  {
+    "category": "Coding",
+    "question": "Which Python statement is used to exit a loop?",
+    "options": ["exit", "break", "stop", "end"],
+    "answer": "break"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the purpose of the 'return' statement in a function?",
+    "options": [
+      "To exit the function and optionally return a value",
+      "To print a value",
+      "To pause the function",
+      "To declare a variable"
+    ],
+    "answer": "To exit the function and optionally return a value"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is NOT a valid JavaScript variable name?",
+    "options": ["_myVar", "2ndVar", "myVar2", "$myVar"],
+    "answer": "2ndVar"
+  },
+  {
+    "category": "Coding",
+    "question": "What does 'var' keyword do in JavaScript?",
+    "options": [
+      "Declares a block-scoped variable",
+      "Declares a function-scoped variable",
+      "Declares a constant",
+      "Declares a global variable only"
+    ],
+    "answer": "Declares a function-scoped variable"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method is used to add an element to the end of an array in JavaScript?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "category": "Coding",
+    "question": "What does '===' operator check in JavaScript?",
+    "options": [
+      "Checks only value equality",
+      "Checks only type equality",
+      "Checks value and type equality",
+      "Checks inequality"
+    ],
+    "answer": "Checks value and type equality"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, how do you create a function?",
+    "options": [
+      "function myFunc():",
+      "def myFunc():",
+      "create myFunc():",
+      "func myFunc():"
+    ],
+    "answer": "def myFunc():"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword is used to handle exceptions in Java?",
+    "options": ["try", "catch", "throw", "final"],
+    "answer": "try"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the output of `console.log(typeof null)` in JavaScript?",
+    "options": ["null", "undefined", "object", "boolean"],
+    "answer": "object"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is NOT a primitive data type in JavaScript?",
+    "options": ["string", "number", "boolean", "array"],
+    "answer": "array"
+  },
+  {
+    "category": "Coding",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Colorful Style Sheets",
+      "Creative Style System",
+      "Computer Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "category": "Coding",
+    "question": "In HTML, which tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "category": "Coding",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Sequential Query Language",
+      "Standard Question Language"
+    ],
+    "answer": "Structured Query Language"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": ["class", "style", "font", "styles"],
+    "answer": "style"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is a JavaScript framework?",
+    "options": ["Laravel", "Django", "React", "Rails"],
+    "answer": "React"
+  },
+  {
+    "category": "Coding",
+    "question": "What keyword is used to declare a constant in JavaScript?",
+    "options": ["let", "var", "const", "constant"],
+    "answer": "const"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, which of these is a tuple?",
+    "options": ["[1, 2, 3]", "{1, 2, 3}", "(1, 2, 3)", "<1, 2, 3>"],
+    "answer": "(1, 2, 3)"
+  },
+  {
+    "category": "Coding",
+    "question": "What symbol is used to comment a single line in JavaScript?",
+    "options": ["//", "/*", "#", "<!--"],
+    "answer": "//"
+  },
+  {
+    "category": "Coding",
+    "question": "Which language is primarily used for Android development?",
+    "options": ["Swift", "Java", "Kotlin", "C#"],
+    "answer": "Kotlin"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML tag is used to define a table row?",
+    "options": ["<td>", "<tr>", "<th>", "<table>"],
+    "answer": "<tr>"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is a JavaScript package manager?",
+    "options": ["npm", "pip", "gem", "composer"],
+    "answer": "npm"
+  },
+  {
+    "category": "Coding",
+    "question": "In CSS, how do you select an element with id 'header'?",
+    "options": ["header", ".header", "#header", "*header"],
+    "answer": "#header"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the default HTTP method used by forms?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "answer": "GET"
+  },
+  {
+    "category": "Coding",
+    "question": "Which Python keyword is used for loops?",
+    "options": ["for", "loop", "repeat", "while"],
+    "answer": "for"
+  },
+  {
+    "category": "Coding",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["^", "**", "%", "exp()"],
+    "answer": "**"
+  },
+  {
+    "category": "Coding",
+    "question": "In Java, what does JVM stand for?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Verified Method",
+      "Java Variable Modifier",
+      "Java Visual Model"
+    ],
+    "answer": "Java Virtual Machine"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method removes the last element from an array in JavaScript?",
+    "options": ["pop()", "push()", "shift()", "unshift()"],
+    "answer": "pop()"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is NOT a loop in JavaScript?",
+    "options": ["for", "while", "repeat", "do...while"],
+    "answer": "repeat"
+  },
+  {
+    "category": "Coding",
+    "question": "What does JSON stand for?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Simple Object Notation",
+      "JavaScript Original Notation",
+      "Java Serialized Object Notation"
+    ],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "category": "Coding",
+    "question": "Which symbol is used for logical AND in JavaScript?",
+    "options": ["&", "&&", "||", "!"],
+    "answer": "&&"
+  },
+  {
+    "category": "Coding",
+    "question": "What tag is used to insert an image in HTML?",
+    "options": ["<img>", "<image>", "<src>", "<picture>"],
+    "answer": "<img>"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is a valid way to declare an array in JavaScript?",
+    "options": ["var arr = []", "var arr = {}", "var arr = ()", "var arr = <>"],
+    "answer": "var arr = []"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the result of 'typeof NaN' in JavaScript?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML element defines the title of a document?",
+    "options": ["<title>", "<head>", "<header>", "<meta>"],
+    "answer": "<title>"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the correct syntax for a for loop in JavaScript?",
+    "options": [
+      "for (let i=0; i<5; i++)",
+      "for (i=0; i<5)",
+      "loop (let i=0; i<5)",
+      "foreach (i in 5)"
+    ],
+    "answer": "for (let i=0; i<5; i++)"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, which data type is immutable?",
+    "options": ["list", "dictionary", "tuple", "set"],
+    "answer": "tuple"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the file extension for Python files?",
+    "options": [".py", ".java", ".js", ".pt"],
+    "answer": ".py"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends"
+  },
+  {
+    "category": "Coding",
+    "question": "What does HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "HighText Transfer Protocol",
+      "Hyper Transfer Text Protocol"
+    ],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method converts a string to an integer in JavaScript?",
+    "options": ["parseInt()", "toInt()", "int()", "convert()"],
+    "answer": "parseInt()"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword creates a new object in JavaScript?",
+    "options": ["new", "create", "object", "class"],
+    "answer": "new"
+  },
+  {
+    "category": "Coding",
+    "question": "Which CSS property changes text color?",
+    "options": ["color", "font-color", "text-color", "font-style"],
+    "answer": "color"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the output of 'console.log(2 + '2')' in JavaScript?",
+    "options": ["4", "22", "NaN", "Error"],
+    "answer": "22"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is used to store multiple values in a single variable in JavaScript?",
+    "options": ["object", "array", "function", "string"],
+    "answer": "array"
+  },
+  {
+    "category": "Coding",
+    "question": "In JavaScript, how do you create an anonymous function?",
+    "options": [
+      "function() {}",
+      "anonymous() {}",
+      "func() {}",
+      "new function() {}"
+    ],
+    "answer": "function() {}"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML attribute specifies an alternate text for an image?",
+    "options": ["alt", "title", "src", "href"],
+    "answer": "alt"
+  },
+  {
+    "category": "Coding",
+    "question": "Which symbol is used to indicate an ID selector in CSS?",
+    "options": ["#", ".", "*", "$"],
+    "answer": "#"
+  },
+  {
+    "category": "Coding",
+    "question": "Which Python statement is used to exit a loop?",
+    "options": ["exit", "break", "stop", "end"],
+    "answer": "break"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the purpose of the 'return' statement in a function?",
+    "options": [
+      "To exit the function and optionally return a value",
+      "To print a value",
+      "To pause the function",
+      "To declare a variable"
+    ],
+    "answer": "To exit the function and optionally return a value"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is NOT a valid JavaScript variable name?",
+    "options": ["_myVar", "2ndVar", "myVar2", "$myVar"],
+    "answer": "2ndVar"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML element is used to define a paragraph?",
+    "options": ["<p>", "<div>", "<span>", "<para>"],
+    "answer": "<p>"
+  },
+  {
+    "category": "Coding",
+    "question": "What will `typeof NaN` return in JavaScript?",
+    "options": ["NaN", "number", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "category": "Coding",
+    "question": "Which keyword is used in JavaScript to declare a variable with block scope?",
+    "options": ["var", "let", "const", "block"],
+    "answer": "let"
+  },
+  {
+    "category": "Coding",
+    "question": "What does 'DOM' stand for?",
+    "options": [
+      "Document Object Model",
+      "Data Object Model",
+      "Document Oriented Model",
+      "Desktop Object Model"
+    ],
+    "answer": "Document Object Model"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is NOT a primitive type in Python?",
+    "options": ["int", "float", "list", "bool"],
+    "answer": "list"
+  },
+  {
+    "category": "Coding",
+    "question": "How do you write a single-line comment in Python?",
+    "options": ["// comment", "# comment", "<!-- comment -->", "/* comment */"],
+    "answer": "# comment"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the default value of an uninitialized variable in JavaScript?",
+    "options": ["null", "undefined", "0", "NaN"],
+    "answer": "undefined"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML attribute is used to specify the destination URL of a link?",
+    "options": ["href", "src", "link", "url"],
+    "answer": "href"
+  },
+  {
+    "category": "Coding",
+    "question": "In CSS, how do you make text bold?",
+    "options": [
+      "font-weight: bold;",
+      "text-weight: bold;",
+      "font-style: bold;",
+      "text-style: bold;"
+    ],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "category": "Coding",
+    "question": "What will be the output of `console.log(0 == false)` in JavaScript?",
+    "options": ["true", "false", "undefined", "error"],
+    "answer": "true"
+  },
+  {
+    "category": "Coding",
+    "question": "In Java, which keyword is used to declare an interface?",
+    "options": ["interface", "implements", "extends", "class"],
+    "answer": "interface"
+  },
+  {
+    "category": "Coding",
+    "question": "Which Python data type is mutable?",
+    "options": ["tuple", "list", "str", "int"],
+    "answer": "list"
+  },
+  {
+    "category": "Coding",
+    "question": "How do you declare an array of integers in Java?",
+    "options": [
+      "int[] arr = new int[5];",
+      "int arr[] = 5;",
+      "array int arr = new int[5];",
+      "int arr = [5];"
+    ],
+    "answer": "int[] arr = new int[5];"
+  },
+  {
+    "category": "Coding",
+    "question": "Which symbol is used for comments in SQL?",
+    "options": ["--", "//", "#", "/* */"],
+    "answer": "--"
+  },
+  {
+    "category": "Coding",
+    "question": "Which method in JavaScript converts a JSON string into an object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.object()",
+      "JSON.convert()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "category": "Coding",
+    "question": "What does CSS 'float' property do?",
+    "options": [
+      "Positions an element to the left or right",
+      "Sets the opacity",
+      "Changes the font size",
+      "Adds margin"
+    ],
+    "answer": "Positions an element to the left or right"
+  },
+  {
+    "category": "Coding",
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A function that remembers its outer scope",
+      "A type of loop",
+      "An object property",
+      "A method to stop execution"
+    ],
+    "answer": "A function that remembers its outer scope"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "options": ["undefined", "boolean", "decimal", "symbol"],
+    "answer": "decimal"
+  },
+  {
+    "category": "Coding",
+    "question": "What will `Boolean('false')` return in JavaScript?",
+    "options": ["true", "false", "undefined", "error"],
+    "answer": "true"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is used to define a function in JavaScript ES6 syntax?",
+    "options": [
+      "function myFunc() {}",
+      "const myFunc = () => {}",
+      "def myFunc() {}",
+      "func myFunc() {}"
+    ],
+    "answer": "const myFunc = () => {}"
+  },
+  {
+    "category": "Coding",
+    "question": "In Python, what is the result of `len([1, 2, 3, 4])`?",
+    "options": ["4", "3", "5", "Error"],
+    "answer": "4"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following keywords is used to create an object in JavaScript?",
+    "options": ["new", "create", "object", "class"],
+    "answer": "new"
+  },
+  {
+    "category": "Coding",
+    "question": "Which attribute in HTML specifies the text displayed in a tooltip?",
+    "options": ["title", "alt", "tooltip", "text"],
+    "answer": "title"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is NOT a valid way to declare a function in JavaScript?",
+    "options": [
+      "function foo() {}",
+      "const foo = function() {}",
+      "const foo = () => {}",
+      "function: foo() {}"
+    ],
+    "answer": "function: foo() {}"
+  },
+  {
+    "category": "Coding",
+    "question": "What does the 'finally' block do in try-catch in JavaScript?",
+    "options": [
+      "Runs after try and catch, regardless of the result",
+      "Runs only if an error occurs",
+      "Runs only if no error occurs",
+      "Skips error handling"
+    ],
+    "answer": "Runs after try and catch, regardless of the result"
+  },
+  {
+    "category": "Coding",
+    "question": "What will be the output of `console.log(1 + true)` in JavaScript?",
+    "options": ["2", "true1", "11", "Error"],
+    "answer": "2"
+  },
+  {
+    "category": "Coding",
+    "question": "Which SQL statement is used to extract data from a database?",
+    "options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+    "answer": "SELECT"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the use of 'super' keyword in Java?",
+    "options": [
+      "To call the parent class constructor or methods",
+      "To declare a superclass",
+      "To create a new object",
+      "To stop execution"
+    ],
+    "answer": "To call the parent class constructor or methods"
+  },
+  {
+    "category": "Coding",
+    "question": "Which operator is used for string concatenation in JavaScript?",
+    "options": ["+", "&", ".", "concat()"],
+    "answer": "+"
+  },
+  {
+    "category": "Coding",
+    "question": "In CSS, which property controls the spacing between lines of text?",
+    "options": [
+      "line-height",
+      "letter-spacing",
+      "text-spacing",
+      "word-spacing"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the purpose of the 'alt' attribute in the <img> tag?",
+    "options": [
+      "Provides alternate text if image cannot be displayed",
+      "Defines the image source",
+      "Specifies the image size",
+      "Adds a tooltip to the image"
+    ],
+    "answer": "Provides alternate text if image cannot be displayed"
+  },
+  {
+    "category": "Coding",
+    "question": "Which JavaScript method is used to add an element at the beginning of an array?",
+    "options": ["unshift()", "push()", "shift()", "pop()"],
+    "answer": "unshift()"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is NOT a feature of Object-Oriented Programming?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"],
+    "answer": "Compilation"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of these is NOT a valid Python data structure?",
+    "options": ["list", "tuple", "map", "set"],
+    "answer": "map"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the output of `print(type([]))` in Python?",
+    "options": [
+      "<class 'list'>",
+      "<class 'tuple'>",
+      "<class 'dict'>",
+      "<class 'set'>"
+    ],
+    "answer": "<class 'list'>"
+  },
+  {
+    "category": "Coding",
+    "question": "In JavaScript, which statement is used to exit a loop early?",
+    "options": ["break", "exit", "stop", "return"],
+    "answer": "break"
+  },
+  {
+    "category": "Coding",
+    "question": "What does the 'async' keyword do in JavaScript?",
+    "options": [
+      "Defines an asynchronous function that returns a promise",
+      "Makes a function synchronous",
+      "Declares a constant variable",
+      "Pauses the execution"
+    ],
+    "answer": "Defines an asynchronous function that returns a promise"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML element is used to embed JavaScript code?",
+    "options": ["<script>", "<js>", "<javascript>", "<code>"],
+    "answer": "<script>"
+  },
+  {
+    "category": "Coding",
+    "question": "Which of the following is NOT a valid JavaScript loop?",
+    "options": ["for", "foreach", "while", "do...while"],
+    "answer": "foreach"
+  },
+  {
+    "category": "Coding",
+    "question": "In CSS, how do you select all elements with a class of 'active'?",
+    "options": [".active", "#active", "*active", "active"],
+    "answer": ".active"
+  },
+  {
+    "category": "Coding",
+    "question": "What does the keyword 'this' refer to in JavaScript?",
+    "options": [
+      "The current object context",
+      "The global window object",
+      "A new function",
+      "The parent class"
+    ],
+    "answer": "The current object context"
+  },
+  {
+    "category": "Coding",
+    "question": "Which HTML element is used for the largest heading?",
+    "options": ["<h1>", "<h6>", "<head>", "<header>"],
+    "answer": "<h1>"
+  },
+  {
+    "category": "Coding",
+    "question": "Which command is used to initialize a new Git repository?",
+    "options": ["git init", "git start", "git new", "git create"],
+    "answer": "git init"
+  },
+  {
+    "category": "Coding",
+    "question": "Which Python function is used to get user input from the console?",
+    "options": ["input()", "read()", "get()", "scan()"],
+    "answer": "input()"
+  },
+  {
+    "category": "Coding",
+    "question": "What is the output of `console.log(typeof undefined)` in JavaScript?",
+    "options": ["undefined", "null", "object", "error"],
+    "answer": "undefined"
+  },
+  {
+    "category": "Coding",
+    "question": "In JavaScript, what does `Array.prototype.map()` do?",
+    "options": [
+      "Creates a new array with the results of calling a function on every element",
+      "Filters an array",
+      "Reduces an array to a single value",
+      "Sorts the array"
+    ],
+    "answer": "Creates a new array with the results of calling a function on every element"
+  }
+]

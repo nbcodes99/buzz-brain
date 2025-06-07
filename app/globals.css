@@ -2,26 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.join {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("assets/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.hamburger {
+  display: none;
+}
+
+ul.open {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 0%;
+    padding: 100px 20px;
+    background-color: #121212;
+    z-index: 400;
+    height: fit-content;
+    width: 100%;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .hamburger {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    right: 1rem;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    padding: 0.3rem;
+    z-index: 500;
+  }
 }

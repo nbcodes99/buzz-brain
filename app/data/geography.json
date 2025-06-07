@@ -1,0 +1,384 @@
+[
+  {
+    "category": "Geography",
+    "question": "Which continent is the largest by land area?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "answer": "Asia"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital city of Australia?",
+    "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+    "answer": "Canberra"
+  },
+  {
+    "category": "Geography",
+    "question": "Which river is the longest in the world?",
+    "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+    "answer": "Nile"
+  },
+  {
+    "category": "Geography",
+    "question": "On which continent is the Sahara Desert located?",
+    "options": ["Africa", "Asia", "Australia", "SouthAmerica"],
+    "answer": "Africa"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country has the largest land area?",
+    "options": ["Russia", "Canada", "China", "UnitedStates"],
+    "answer": "Russia"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the smallest country in the world by land area?",
+    "options": ["VaticanCity", "Monaco", "SanMarino", "Liechtenstein"],
+    "answer": "VaticanCity"
+  },
+  {
+    "category": "Geography",
+    "question": "Which mountain has the highest peak above sea level?",
+    "options": ["MountEverest", "K2", "Kangchenjunga", "Lhotse"],
+    "answer": "MountEverest"
+  },
+  {
+    "category": "Geography",
+    "question": "What body of water separates Saudi Arabia from Africa?",
+    "options": ["RedSea", "ArabianSea", "PersianGulf", "MediterraneanSea"],
+    "answer": "RedSea"
+  },
+  {
+    "category": "Geography",
+    "question": "In which country would you find the city of Barcelona?",
+    "options": ["Spain", "Italy", "France", "Portugal"],
+    "answer": "Spain"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the currency used in Japan?",
+    "options": ["Yen", "Won", "Dollar", "Euro"],
+    "answer": "Yen"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is known as the “Land of the Rising Sun”?",
+    "options": ["Japan", "China", "Thailand", "SouthKorea"],
+    "answer": "Japan"
+  },
+  {
+    "category": "General",
+    "question": "A second-year college student is usually called a what?",
+    "options": ["Freshman", "Senior", "Sophomore", "Junior"],
+    "answer": "Sophomore"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country capital is Warsaw?",
+    "options": ["Japan", "Denmark", "Norway", "Poland"],
+    "answer": "Poland"
+  },
+  {
+    "category": "Geography",
+    "question": "What hormone controls your body's fight or flight response?",
+    "options": ["Blood Cells", "Adrenaline", "Cortisol", "Hormone"],
+    "answer": "Crust"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country capital is Warsaw?",
+    "options": ["Japan", "Denmark", "Norway", "Poland"],
+    "answer": "Poland"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country capital is Oslo?",
+    "options": ["Denmark", "Peru", "Norway", "Colombia"],
+    "answer": "Norway"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country capital is Berlin?",
+    "options": ["Germany", "Peru", "France", "Scotland"],
+    "answer": "Germany"
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent is the least populated?",
+    "options": ["Antarctica", "Australia", "Europe", "SouthAmerica"],
+    "answer": "Antarctica"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the main language spoken in Brazil?",
+    "options": ["Portuguese", "Spanish", "English", "French"],
+    "answer": "Portuguese"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is both a continent and a country?",
+    "options": ["Australia", "Greenland", "India", "SouthAfrica"],
+    "answer": "Australia"
+  },
+  {
+    "category": "Geography",
+    "question": "Which canal joins the Pacific and Atlantic oceans?",
+    "options": ["PanamaCanal", "SuezCanal", "KielCanal", "CorinthCanal"],
+    "answer": "PanamaCanal"
+  },
+  {
+    "category": "Geography",
+    "question": "Which city is known as “The City of Love”?",
+    "options": ["Paris", "Venice", "Rome", "Vienna"],
+    "answer": "Paris"
+  },
+  {
+    "category": "Geography",
+    "question": "What body of water is the world’s largest by surface area?",
+    "options": ["PacificOcean", "AtlanticOcean", "IndianOcean", "ArcticOcean"],
+    "answer": "PacificOcean"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country has the most islands?",
+    "options": ["Sweden", "Indonesia", "Philippines", "Canada"],
+    "answer": "Sweden"
+  },
+  {
+    "category": "Geography",
+    "question": "The Great Barrier Reef is located off the coast of which country?",
+    "options": ["Australia", "Indonesia", "Fiji", "NewZealand"],
+    "answer": "Australia"
+  },
+  {
+    "category": "Geography",
+    "question": "In which continent is the Amazon Rainforest located?",
+    "options": ["SouthAmerica", "Africa", "Asia", "Australia"],
+    "answer": "SouthAmerica"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is known for its famous Trans-Siberian Railway?",
+    "options": ["Russia", "China", "Germany", "India"],
+    "answer": "Russia"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the world’s driest place (non-polar)?",
+    "options": ["AtacamaDesert", "Sahara", "GobiDesert", "DeathValley"],
+    "answer": "AtacamaDesert"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Canada?",
+    "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "category": "Geography",
+    "question": "Which European city is famously divided by the Bosphorus Strait?",
+    "options": ["Istanbul", "Athens", "Rome", "Vienna"],
+    "answer": "Istanbul"
+  },
+  {
+    "category": "Geography",
+    "question": "The Nile River flows into which body of water?",
+    "options": ["MediterraneanSea", "RedSea", "IndianOcean", "AtlanticOcean"],
+    "answer": "MediterraneanSea"
+  },
+  {
+    "category": "Geography",
+    "question": "In which country can you visit the ancient city of Machu Picchu?",
+    "options": ["Peru", "Mexico", "Brazil", "Chile"],
+    "answer": "Peru"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the smallest ocean?",
+    "options": ["ArcticOcean", "IndianOcean", "SouthernOcean", "AtlanticOcean"],
+    "answer": "ArcticOcean"
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is known as the “Land of the Midnight Sun”?",
+    "options": ["Norway", "Sweden", "Finland", "Iceland"],
+    "answer": "Norway"
+  },
+  {
+    "category": "Geography",
+    "question": "Where is the world’s highest waterfall, Angel Falls, located?",
+    "options": ["Venezuela", "Brazil", "Argentina", "Colombia"],
+    "answer": "Venezuela"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of South Africa?",
+    "options": ["Pretoria", "CapeTown", "Johannesburg", "Durban"],
+    "answer": "Pretoria"
+  },
+  {
+    "category": "Geography",
+    "question": "Which sea is the world’s saltiest?",
+    "options": ["DeadSea", "RedSea", "MediterraneanSea", "CaspianSea"],
+    "answer": "DeadSea"
+  },
+  {
+    "category": "Geography",
+    "question": "Which mountain range separates Europe from Asia?",
+    "options": ["Ural", "Alps", "Carpathians", "Caucasus"],
+    "answer": "Ural"
+  },
+  {
+    "category": "Geography",
+    "question": "Which desert is the largest in terms of land area?",
+    "options": ["AntarcticDesert", "Sahara", "ArcticDesert", "GobiDesert"],
+    "answer": "AntarcticDesert"
+  },
+  {
+    "category": "Geography",
+    "question": "The Matterhorn is a famous mountain in which mountain range?",
+    "options": ["Alps", "Himalayas", "Rockies", "Andes"],
+    "answer": "Alps"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the national language of Belgium?",
+    "options": ["Dutch", "French", "German", "AllOfTheAbove"],
+    "answer": "AllOfTheAbove"
+  },
+  {
+    "category": "Geography",
+    "question": "In which city would you find the historic Acropolis?",
+    "options": ["Athens", "Rome", "Istanbul", "Cairo"],
+    "answer": "Athens"
+  },
+  {
+    "category": "Geography",
+    "question": "Which two countries share the longest international border?",
+    "options": [
+      "CanadaAndUSA",
+      "RussiaAndChina",
+      "ArgentinaAndChile",
+      "IndiaAndBangladesh"
+    ],
+    "answer": "CanadaAndUSA"
+  },
+  {
+    "category": "Geography",
+    "question": "In which country is the world’s deepest lake, Lake Baikal, located?",
+    "options": ["Russia", "Canada", "USA", "Mongolia"],
+    "answer": "Russia"
+  },
+  {
+    "category": "Geography",
+    "question": "Which Asian city-state is composed of 63 islands?",
+    "options": ["Singapore", "HongKong", "Macau", "Taiwan"],
+    "answer": "Singapore"
+  },
+  {
+    "category": "Geography",
+    "question": "Which African country was never colonized by a European power?",
+    "options": ["Ethiopia", "Liberia", "Egypt", "Morocco"],
+    "answer": "Ethiopia"
+  },
+  {
+    "category": "Geography",
+    "question": "The city of Dubai is located in which country?",
+    "options": ["UnitedArabEmirates", "SaudiArabia", "Qatar", "Bahrain"],
+    "answer": "UnitedArabEmirates"
+  },
+  {
+    "category": "Geography",
+    "question": "In which country is the temple complex Angkor Wat located?",
+    "options": ["Cambodia", "Thailand", "Vietnam", "Laos"],
+    "answer": "Cambodia"
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Egypt?",
+    "options": ["Nile", "Amazon", "Tigris", "Euphrates"],
+    "answer": "Nile"
+  },
+  {
+    "category": "Geography",
+    "question": "In which country would you find the city of Christchurch?",
+    "options": ["NewZealand", "Australia", "Canada", "UnitedKingdom"],
+    "answer": "NewZealand"
+  },
+  {
+    "category": "Geography",
+    "question": "Which island country lies to the southeast of India?",
+    "options": ["SriLanka", "Maldives", "Indonesia", "Mauritius"],
+    "answer": "SriLanka"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the currency of Switzerland?",
+    "options": ["SwissFranc", "Euro", "Dollar", "Pound"],
+    "answer": "SwissFranc"
+  },
+  {
+    "category": "Geography",
+    "question": "In which country can you find Mount Kilimanjaro?",
+    "options": ["Tanzania", "Kenya", "Ethiopia", "Uganda"],
+    "answer": "Tanzania"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest city by population?",
+    "options": ["Tokyo", "Shanghai", "Delhi", "SãoPaulo"],
+    "answer": "Tokyo"
+  },
+  {
+    "category": "Geography",
+    "question": "Which ocean lies to the east of Africa?",
+    "options": [
+      "IndianOcean",
+      "AtlanticOcean",
+      "PacificOcean",
+      "SouthernOcean"
+    ],
+    "answer": "IndianOcean"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Switzerland?",
+    "options": ["Bern", "Warsaw", "Jakarta", "Bogota"],
+    "answer": "Bern"
+  },
+  {
+    "category": "Geography",
+    "question": "Which European city has canals and is known for its gondola rides?",
+    "options": ["Venice", "Amsterdam", "Paris", "Prague"],
+    "answer": "Venice"
+  },
+  {
+    "category": "Geography",
+    "question": "Where are the Galápagos Islands located?",
+    "options": ["Ecuador", "Peru", "Colombia", "Chile"],
+    "answer": "Ecuador"
+  },
+  {
+    "category": "Geography",
+    "question": "Which ocean is the deepest?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "answer": "Pacific"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the longest river in the world?",
+    "options": ["Amazon", "Yangtze", "Nile", "Mississippi"],
+    "answer": "Nile"
+  },
+  {
+    "category": "Geography",
+    "question": "What natural feature separates Europe and Asia?",
+    "options": ["Ural Mountains", "Himalayas", "Andes", "Rocky Mountains"],
+    "answer": "Ural Mountains"
+  },
+  {
+    "category": "Geography",
+    "question": "What is the driest desert on Earth?",
+    "options": ["Sahara", "Atacama", "Gobi", "Kalahari"],
+    "answer": "Atacama"
+  }
+]
