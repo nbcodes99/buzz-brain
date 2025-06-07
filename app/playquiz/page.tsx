@@ -2,7 +2,6 @@
 
 import { Button, Select } from "@radix-ui/themes";
 import React, { useState, useEffect } from "react";
-import clsx from "clsx";
 
 type Question = {
   category: string;
@@ -85,13 +84,12 @@ export default function PlayQuiz() {
         Choose category of questions to answer.
       </p>
 
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center mx-3">
         <Select.Root size="3" onValueChange={setSelectedCategory}>
           <Select.Trigger
             color="orange"
             variant="soft"
             placeholder="Pick a category"
-            className="w-full max-w-md"
           />
           <Select.Content color="orange">
             <Select.Item value="General">General</Select.Item>
@@ -118,12 +116,12 @@ export default function PlayQuiz() {
             currentQuestionIndex < shuffledQuestions.length ? (
               <div
                 key={currentQuestionIndex}
-                className="bg-zinc-900 p-6 md:px-14 md:py-10 rounded-md shadow-md animate-zoomIn m-3"
+                className="bg-zinc-900 p-6 md:px-14 md:py-10 rounded-md shadow-md animate-zoomIn m-4"
               >
                 <p className="text-zinc-200 font-medium mb-10 text-center text-xl md:text-2xl">
                   {currentQuestion.question}
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full px-6">
                   {currentQuestion.options.map((opt, i) => {
                     const isCorrect = opt === currentQuestion.answer;
                     const isSelected = selectedOption === opt;
