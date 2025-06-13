@@ -98,7 +98,7 @@
   {
     "category": "Football",
     "question": "Who is the current captain of the Argentina national team?",
-    "options": ["Messi", "DiMaria", "Otamendi", "Lautaro Martinez"],
+    "options": ["Messi", "Di Maria", "Otamendi", "Lautaro Martinez"],
     "answer": "Messi"
   },
   {
@@ -478,13 +478,13 @@
   {
     "category": "Football",
     "question": "Which club's fans are known as 'The Kop'?",
-    "options": ["Liverpool", "ManUnited", "Arsenal", "Leeds"],
+    "options": ["Liverpool", "Man United", "Arsenal", "Leeds"],
     "answer": "Liverpool"
   },
   {
     "category": "Football",
     "question": "What is the name of Germany's top football division?",
-    "options": ["Bundesliga", "LaLiga", "Serie A", "Ligue 1"],
+    "options": ["Bundesliga", "La Liga", "Serie A", "Ligue 1"],
     "answer": "Bundesliga"
   },
   {
@@ -782,8 +782,8 @@
   {
     "category": "Football",
     "question": "Which football team has a bird called 'Fred the Red' as mascot?",
-    "options": ["Manchester United", "Liverpool", "Arsenal", "Newcastle"],
-    "answer": "Manchester United"
+    "options": ["Man United", "Liverpool", "Arsenal", "Newcastle"],
+    "answer": "Man United"
   },
   {
     "category": "Football",

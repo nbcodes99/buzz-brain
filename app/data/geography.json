@@ -586,25 +586,25 @@
   {
     "category": "geography",
     "question": "What is the capital of the Philippines?",
-    "options": ["Manila", "Cebu", "Davao", "Quezon City"],
+    "options": ["Quezon City", "Cebu", "Davao", "Manila"],
     "answer": "Manila"
   },
   {
     "category": "geography",
     "question": "Which country has the capital city of Warsaw?",
-    "options": ["Poland", "Austria", "Hungary", "Slovakia"],
+    "options": ["Andorra", "Austria", "Hungary", "Poland"],
     "answer": "Poland"
   },
   {
     "category": "geography",
     "question": "Which continent has the most people?",
-    "options": ["Asia", "Africa", "Europe", "North America"],
+    "options": ["North America", "Africa", "Europe", "Asia"],
     "answer": "Asia"
   },
   {
     "category": "geography",
     "question": "What is the currency of the United Kingdom?",
-    "options": ["Pound Sterling", "Euro", "Dollar", "Franc"],
+    "options": ["Franc", "Euro", "Dollar", "Pound Sterling"],
     "answer": "Pound Sterling"
   },
   {

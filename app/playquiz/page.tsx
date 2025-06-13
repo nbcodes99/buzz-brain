@@ -80,14 +80,14 @@ export default function PlayQuiz() {
 
   return (
     <section className="pb-24 pt-36 px_10 md:px-20 flex flex-col items-center w-full">
-      <h1 className="font-bold text-3xl md:text-4xl text-zinc-200">
+      <h1 className="font-bold text-3xl md:text-4xl text-zinc-200 animate-slideInLeft">
         Play <span className="text-amber-600">Quiz</span>
       </h1>
-      <p className="text-sm font-medium text-zinc-500 text-center mb-6">
+      <p className="text-sm font-medium text-zinc-500 text-center mb-6 animate-slideInRight">
         Choose category of questions to answer.
       </p>
 
-      <div className="w-full flex flex-col items-center mx-3">
+      <div className="w-full flex flex-col items-center mx-3 animate-zoomIn">
         <Select.Root size="3" onValueChange={setSelectedCategory}>
           <Select.Trigger
             color="orange"
