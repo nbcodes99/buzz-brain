@@ -24,7 +24,7 @@ export default function Home() {
               Play quizzes, climb the leaderboard, <br />
               and challenge your friends!
             </p>
-            <Link href="/playquiz">
+            <Link href="/playquiz" className="animate-zoomIn">
               <Button variant="soft" size="3">
                 <MdQuiz /> Play Quiz
               </Button>
@@ -38,12 +38,12 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className="w-full pt-8 pb-16 px-4 md:px-20 bg-zinc-900 flex items-center justify-between animate-slideInRight">
+        <section className="w-full pt-8 pb-16 px-4 md:px-20 bg-zinc-900 flex items-center justify-between">
           <div>
-            <h1 className="font-bold text-2xl md:text-3xl text-center md:text-left text-zinc-200 mb-10">
+            <h1 className="font-bold text-2xl md:text-3xl text-center md:text-left text-zinc-200 mb-10 animate-slideInRight">
               Featured Categories
             </h1>
-            <div className="flex items-center justify-evenly gap-x-6">
+            <div className="flex items-center justify-evenly gap-x-6 animate-slideInLeft">
               <div className="flex flex-col w-20 md:w-36 items-center justify-center gap-y-2 bg-zinc-800 shadow-md px-4 py-4 md:py-6 rounded-md">
                 <GiMaterialsScience className="text-2xl md:text-4xl" />
                 <p className="font-medium text-sm md:text-base text-zinc-300">
@@ -121,7 +121,10 @@ export default function Home() {
             </Button>
           </div>
         </section>
-        <section className="w-full py-8 flex flex-col items-center bg-amber-900">
+        <section
+          className="w-full py-8 flex flex-col items-center bg-amber-900"
+          id="faq"
+        >
           <h1 className="font-bold text-4xl text-zinc-100">FAQs</h1>
           <p className="text-sm font-normal text-zinc-200 text-center mb-10 mx-3">
             Find answers to your questions about using our quiz platform

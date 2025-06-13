@@ -40,10 +40,10 @@ export default function Footer() {
               <a href="/" className="text-sm text-zinc-300">
                 About Us
               </a>
-              <a href="/" className="text-sm text-zinc-300">
+              <a href="www.gmail.com" className="text-sm text-zinc-300">
                 Contact Us
               </a>
-              <a href="/" className="text-sm text-zinc-300">
+              <a href="#faq" className="text-sm text-zinc-300">
                 FAQ
               </a>
               <a href="/" className="text-sm text-zinc-300">
@@ -54,16 +54,16 @@ export default function Footer() {
           <div className="flex flex-col items-start">
             <h1 className="font-bold text-xl mb-3">Quick Links</h1>
             <span className="flex flex-col gap-y-2">
-              <a href="/" className="text-sm text-zinc-300">
+              <a href="/playquiz" className="text-sm text-zinc-300">
                 Play Quiz
               </a>
-              <a href="/" className="text-sm text-zinc-300">
+              <a href="/categories" className="text-sm text-zinc-300">
                 Categories
               </a>
-              <a href="/" className="text-sm text-zinc-300">
+              <a href="/leaderboard" className="text-sm text-zinc-300">
                 Leaderboard
               </a>
-              <a href="/" className="text-sm text-zinc-300">
+              <a href="/profile" className="text-sm text-zinc-300">
                 Profile
               </a>
             </span>

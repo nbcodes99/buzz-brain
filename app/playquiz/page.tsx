@@ -2,6 +2,9 @@
 
 import { Button, Select } from "@radix-ui/themes";
 import React, { useState, useEffect } from "react";
+import { GrStatusGood } from "react-icons/gr";
+import { MdOutlineCancel } from "react-icons/md";
+import { FaGrinStars } from "react-icons/fa";
 
 type Question = {
   category: string;
@@ -71,7 +74,7 @@ export default function PlayQuiz() {
         setCurrentQuestionIndex((prev) => prev + 1);
         setAnswered(false);
         setSelectedOption(null);
-      }, 1200);
+      }, 1500);
     }
   };
 
@@ -133,6 +136,7 @@ export default function PlayQuiz() {
                         color="orange"
                         variant="soft"
                         onClick={() => handleAnswer(opt)}
+                        className="w-full min-h-[60]"
                         disabled={answered}
                       >
                         {opt}
@@ -140,10 +144,20 @@ export default function PlayQuiz() {
                     );
                   })}
                 </div>
-                <p className="text-zinc-400 text-sm mt-6 md:mt-10 font-medium text-center">
-                  Score: {score}
-                  {/* / {shuffledQuestions.length} */}
-                </p>
+                <div className="flex justify-between items-center">
+                  <div className="flex items-center gap-x-2 text-zinc-400 text-sm mt-6 md:mt-10 font-medium text-center">
+                    <FaGrinStars />→<p>{score}</p>
+                  </div>
+                  {answered && (
+                    <p className="mt-6 font-medium text-base text-center">
+                      {selectedOption === currentQuestion.answer ? (
+                        <GrStatusGood className="text-lime-600 animate-zoomIn" />
+                      ) : (
+                        <MdOutlineCancel className="text-orange-500 animate-zoomIn" />
+                      )}
+                    </p>
+                  )}
+                </div>
               </div>
             ) : (
               <div className="text-center mt-12">

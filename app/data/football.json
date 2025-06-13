@@ -8,20 +8,14 @@
   {
     "category": "Football",
     "question": "Which player has scored the most international goals?",
-    "options": ["Cristiano Ronaldo", "Ali Daei", "Messi", "Pele"],
-    "answer": "Cristiano Ronaldo"
+    "options": ["CR7", "Ali Daei", "Messi", "Pele"],
+    "answer": "CR7"
   },
   {
     "category": "Football",
     "question": "Which club has won the most UEFA Champions League titles?",
     "options": ["Barcelona", "Liverpool", "AC Milan", "Real Madrid"],
     "answer": "Real Madrid"
-  },
-  {
-    "category": "Football",
-    "question": "How many players are on the field for one team in a football match?",
-    "options": ["10", "11", "12", "9"],
-    "answer": "11"
   },
   {
     "category": "Football",
@@ -32,13 +26,8 @@
   {
     "category": "Football",
     "question": "Which player has won the most Ballon d'Or awards?",
-    "options": [
-      "LionelMessi",
-      "CristianoRonaldo",
-      "MichelPlatini",
-      "JohanCruyff"
-    ],
-    "answer": "LionelMessi"
+    "options": ["Messi", "CR7", "Platini", "Cruyff"],
+    "answer": "Messi"
   },
   {
     "category": "Football",
@@ -50,48 +39,43 @@
     "category": "Football",
     "question": "What is the name of Manchester United’s home stadium?",
     "options": ["Old Trafford", "Anfield", "Etihad", "Stamford Bridge"],
-    "answer": "OldTrafford"
+    "answer": "Old Trafford"
   },
   {
     "category": "Football",
     "question": "Who is known as 'The Egyptian King'?",
     "options": ["Mohamed Salah", "Mahrez", "ElNeny", "Hazard"],
-    "answer": "MohamedSalah"
+    "answer": "Mohamed Salah"
   },
   {
     "category": "Football",
     "question": "Which team won the UEFA Champions League in 2023?",
-    "options": [
-      "Manchester City",
-      "Real Madrid",
-      "InterMilan",
-      "Bayern Munich"
-    ],
-    "answer": "ManchesterCity"
+    "options": ["Man City", "Real Madrid", "Inter Milan", "Bayern Munich"],
+    "answer": "Man City"
   },
   {
     "category": "Football",
     "question": "Which country hosted the 2022 FIFA World Cup?",
-    "options": ["Qatar", "Russia", "USA", "SouthAfrica"],
+    "options": ["Qatar", "Russia", "USA", "South Africa"],
     "answer": "Qatar"
   },
   {
     "category": "Football",
     "question": "Who scored the 'Hand of God' goal?",
-    "options": ["Diego Maradona", "Pele", "Zidane", "Messi"],
-    "answer": "DiegoMaradona"
+    "options": ["Maradona", "Pele", "Zidane", "Messi"],
+    "answer": "Maradona"
   },
   {
     "category": "Football",
     "question": "Which club is nicknamed 'The Blues'?",
-    "options": ["Chelsea", "Everton", "ManCity", "Leicester"],
+    "options": ["Chelsea", "Everton", "Man City", "Leicester"],
     "answer": "Chelsea"
   },
   {
     "category": "Football",
-    "question": "Who won the Premier League in the 2022–2023 season?",
-    "options": ["Manchester City", "Arsenal", "Liverpool", "Chelsea"],
-    "answer": "ManchesterCity"
+    "question": "Who won the Premier League in the 22/23 season?",
+    "options": ["Man City", "Arsenal", "Liverpool", "Chelsea"],
+    "answer": "Man City"
   },
   {
     "category": "Football",
@@ -102,31 +86,20 @@
   {
     "category": "Football",
     "question": "Who is the all-time top scorer in the UEFA Champions League?",
-    "options": ["Cristiano Ronaldo", "Messi", "Raul", "Lewandowski"],
-    "answer": "CristianoRonaldo"
-  },
-  {
-    "category": "Football",
-    "question": "Which player is known as 'CR7'?",
-    "options": [
-      "CristianoRonaldo",
-      "CarlosRocha",
-      "CarlesPuyol",
-      "ClarenceSeedorf"
-    ],
-    "answer": "CristianoRonaldo"
+    "options": ["CR7", "Messi", "Raul", "Lewandowski"],
+    "answer": "CR7"
   },
   {
     "category": "Football",
     "question": "Which club plays at the Camp Nou?",
-    "options": ["Barcelona", "RealMadrid", "AtleticoMadrid", "Sevilla"],
+    "options": ["Barcelona", "Real Madrid", "Atletico Madrid", "Sevilla"],
     "answer": "Barcelona"
   },
   {
     "category": "Football",
     "question": "Who is the current captain of the Argentina national team?",
-    "options": ["Lionel Messi", "DiMaria", "Otamendi", "LautaroMartinez"],
-    "answer": "LionelMessi"
+    "options": ["Messi", "DiMaria", "Otamendi", "Lautaro Martinez"],
+    "answer": "Messi"
   },
   {
     "category": "Football",
@@ -138,7 +111,7 @@
     "category": "Football",
     "question": "Which team has won the most UEFA Champions League titles?",
     "options": ["Real Madrid", "Barcelona", "Liverpool", "ACMilan"],
-    "answer": "RealMadrid"
+    "answer": "Real Madrid"
   },
   {
     "category": "Football",
@@ -174,13 +147,13 @@
     "category": "Football",
     "question": "Which goalkeeper has the most clean sheets in Premier League history?",
     "options": ["Petr Cech", "DeGea", "Schmeichel", "Alisson"],
-    "answer": "PetrCech"
+    "answer": "Petr Cech"
   },
   {
     "category": "Football",
     "question": "Which player scored a hat-trick in the 2022 World Cup final?",
-    "options": ["Kylian Mbappe", "Messi", "Giroud", "Griezmann"],
-    "answer": "KylianMbappe"
+    "options": ["Mbappe", "Messi", "Giroud", "Griezmann"],
+    "answer": "Mbappe"
   },
   {
     "category": "Football",
@@ -191,8 +164,8 @@
   {
     "category": "Football",
     "question": "Which club has the most Premier League titles?",
-    "options": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
-    "answer": "ManchesterUnited"
+    "options": ["Man United", "Liverpool", "Chelsea", "Arsenal"],
+    "answer": "Man United"
   },
   {
     "category": "Football",
@@ -203,26 +176,26 @@
   {
     "category": "Football",
     "question": "Which team is known as 'The Citizens'?",
-    "options": ["Manchester City", "Chelsea", "Arsenal", "Everton"],
-    "answer": "ManchesterCity"
+    "options": ["Man City", "Chelsea", "Arsenal", "Everton"],
+    "answer": "Man City"
   },
   {
     "category": "Football",
     "question": "Which African player has won the most Ballon d'Ors?",
-    "options": ["George Weah", "Didier Drogba", "Eto’o", "Salah"],
-    "answer": "GeorgeWeah"
+    "options": ["George Weah", "Drogba", "Eto’o", "Salah"],
+    "answer": "George Weah"
   },
   {
     "category": "Football",
     "question": "What is a hat-trick?",
-    "options": ["3Goals", "3Assists", "3YellowCards", "3Saves"],
-    "answer": "3Goals"
+    "options": ["3 Goals", "3 Assists", "3 Cards", "3 Saves"],
+    "answer": "3 Goals"
   },
   {
     "category": "Football",
     "question": "Who is the manager of Manchester City (as of 2024)?",
     "options": ["Pep Guardiola", "Jurgen Klopp", "Mourinho", "TenHag"],
-    "answer": "PepGuardiola"
+    "answer": "Pep Guardiola"
   },
   {
     "category": "Football",
@@ -246,18 +219,18 @@
     "category": "Football",
     "question": "What does VAR stand for?",
     "options": [
-      "VideoAssistantReferee",
-      "VirtualAssistanceReplay",
-      "VerifiedActionReplay",
-      "VideoActionReview"
+      "Video Assistant Referee",
+      "Virtual Assistance Replay",
+      "Verified Action Replay",
+      "Video Action Review"
     ],
-    "answer": "VideoAssistantReferee"
+    "answer": "Video Assistant Referee"
   },
   {
     "category": "Football",
     "question": "Which player is called the 'Nigerian Nightmare'?",
     "options": ["JayJay Okocha", "Victor Osimhen", "Kanu", "Obafemi Martins"],
-    "answer": "JayJayOkocha"
+    "answer": "JayJay Okocha"
   },
   {
     "category": "Football",
@@ -268,13 +241,8 @@
   {
     "category": "Football",
     "question": "Who wears jersey number 7 for Portugal?",
-    "options": [
-      "Cristiano Ronaldo",
-      "Bruno Fernandes",
-      "Joao Felix",
-      "Bernardo Silva"
-    ],
-    "answer": "CristianoRonaldo"
+    "options": ["CR7", "Bruno Fernandes", "Joao Felix", "Bernardo Silva"],
+    "answer": "CR7"
   },
   {
     "category": "Football",
@@ -285,31 +253,31 @@
       "RB Leipzig",
       "Schalke04"
     ],
-    "answer": "BayernMunich"
+    "answer": "Bayern Munich"
   },
   {
     "category": "Football",
     "question": "Who is Barcelona’s all-time top scorer?",
-    "options": ["Lionel Messi", "Suarez", "Ronaldinho", "Xavi"],
-    "answer": "LionelMessi"
+    "options": ["Messi", "Suarez", "Ronaldinho", "Xavi"],
+    "answer": "Messi"
   },
   {
     "category": "Football",
     "question": "Who scored the winning penalty in the 2022 AFCON final?",
-    "options": ["Sadio Mane", "Salah", "Keita", "Mendy"],
-    "answer": "SadioMane"
+    "options": ["Mane", "Salah", "Keita", "Mendy"],
+    "answer": "Mane"
   },
   {
     "category": "Football",
     "question": "Which club has the most Serie A titles?",
-    "options": ["Juventus", "ACMilan", "InterMilan", "Roma"],
+    "options": ["Juventus", "AC Milan", "Inter Milan", "Roma"],
     "answer": "Juventus"
   },
   {
     "category": "Football",
     "question": "Who is known for the 'Panenka' penalty?",
-    "options": ["Antonin Panenka", "Maradona", "Beckham", "Pirlo"],
-    "answer": "AntoninPanenka"
+    "options": ["Antonin", "Maradona", "Beckham", "Pirlo"],
+    "answer": "Antonin"
   },
   {
     "category": "Football",
@@ -320,7 +288,7 @@
   {
     "category": "Football",
     "question": "Which Premier League club has 'You'll Never Walk Alone' as their anthem?",
-    "options": ["Liverpool", "ManCity", "Chelsea", "Tottenham"],
+    "options": ["Liverpool", "Man City", "Chelsea", "Tottenham"],
     "answer": "Liverpool"
   },
   {
@@ -332,37 +300,37 @@
   {
     "category": "Football",
     "question": "Who was awarded the Golden Boot in the 2022 FIFA World Cup?",
-    "options": ["Kylian Mbappe", "Lionel Messi", "Giroud", "Harry Kane"],
-    "answer": "KylianMbappe"
+    "options": ["Mbappe", "Messi", "Giroud", "Harry Kane"],
+    "answer": "Mbappe"
   },
   {
     "category": "Football",
     "question": "Which country hosted the 2014 FIFA World Cup?",
-    "options": ["Brazil", "Germany", "SouthAfrica", "Russia"],
+    "options": ["Brazil", "Germany", "South Africa", "Russia"],
     "answer": "Brazil"
   },
   {
     "category": "Football",
     "question": "Which manager is famous for the phrase 'I am the Special One'?",
     "options": ["Jose Mourinho", "Pep Guardiola", "Klopp", "Ancelotti"],
-    "answer": "JoseMourinho"
+    "answer": "Jose Mourinho"
   },
   {
     "category": "Football",
     "question": "Who scored the fastest goal in World Cup history?",
     "options": ["Hakan Sukur", "Ronaldo", "Pele", "Bale"],
-    "answer": "HakanSukur"
+    "answer": "Hakan Sukur"
   },
   {
     "category": "Football",
     "question": "Which stadium is home to Real Madrid?",
     "options": [
-      "SantiagoBernabeu",
-      "CampNou",
-      "WandaMetropolitano",
-      "AllianzArena"
+      "Santiago Bernabeu",
+      "Camp Nou",
+      "Wanda Metropolitano",
+      "Allianz Arena"
     ],
-    "answer": "SantiagoBernabeu"
+    "answer": "Santiago Bernabeu"
   },
   {
     "category": "Football",
@@ -373,7 +341,7 @@
   {
     "category": "Football",
     "question": "Which team has the most FA Cup wins?",
-    "options": ["Arsenal", "Manchester United", "Chelsea", "Liverpool"],
+    "options": ["Arsenal", "Man United", "Chelsea", "Liverpool"],
     "answer": "Arsenal"
   },
   {
@@ -390,17 +358,6 @@
   },
   {
     "category": "Football",
-    "question": "What does FIFA stand for?",
-    "options": [
-      "FédérationInternationaleDeFootballAssociation",
-      "FootballInternationalFederationAssociation",
-      "FederalInternationalFootballAuthority",
-      "FootballInternationalFederationAgency"
-    ],
-    "answer": "FédérationInternationaleDeFootballAssociation"
-  },
-  {
-    "category": "Football",
     "question": "Which footballer is known for his iconic 'Why Always Me?' shirt?",
     "options": ["Balotelli", "Pogba", "Zlatan", "Suarez"],
     "answer": "Balotelli"
@@ -414,7 +371,7 @@
   {
     "category": "Football",
     "question": "Which English club has a bird on its logo?",
-    "options": ["Tottenham", "ManCity", "Chelsea", "Arsenal"],
+    "options": ["Tottenham", "Man City", "Chelsea", "Arsenal"],
     "answer": "Tottenham"
   },
   {
@@ -427,7 +384,7 @@
     "category": "Football",
     "question": "Which footballer was famously banned for biting an opponent?",
     "options": ["Luis Suarez", "Zidane", "Pepe", "Ramos"],
-    "answer": "LuisSuarez"
+    "answer": "Luis Suarez"
   },
   {
     "category": "Football",
@@ -439,7 +396,7 @@
     "category": "Football",
     "question": "Who was the captain of France in the 2018 World Cup?",
     "options": ["Hugo Lloris", "Varane", "Griezmann", "Pogba"],
-    "answer": "HugoLloris"
+    "answer": "Hugo Lloris"
   },
   {
     "category": "Football",
@@ -451,7 +408,7 @@
     "category": "Football",
     "question": "Which country won the first ever European Championship?",
     "options": ["Soviet Union", "Germany", "Spain", "Italy"],
-    "answer": "SovietUnion"
+    "answer": "Soviet Union"
   },
   {
     "category": "Football",
@@ -463,12 +420,12 @@
     "category": "Football",
     "question": "Which football competition is known as 'The Big Ears'?",
     "options": [
-      "Champions League",
+      "UEFA Champions League",
       "Europa League",
-      "Club WorldCup",
+      "Club World Cup",
       "Copa Libertadores"
     ],
-    "answer": "ChampionsLeague"
+    "answer": "UEFA Champions League"
   },
   {
     "category": "Football",
@@ -480,7 +437,7 @@
     "category": "Football",
     "question": "Who is regarded as the founder of modern football?",
     "options": ["Ebenezer Morley", "FIFA", "Wenger", "Sepp Blatter"],
-    "answer": "EbenezerMorley"
+    "answer": "Ebenezer Morley"
   },
   {
     "category": "Football",
@@ -492,7 +449,7 @@
     "category": "Football",
     "question": "Who was the first African to play in the Premier League?",
     "options": ["Bruce Grobbelaar", "Kanu", "Weah", "Yeboah"],
-    "answer": "BruceGrobbelaar"
+    "answer": "Bruce Grobbelaar"
   },
   {
     "category": "Football",
@@ -515,8 +472,8 @@
   {
     "category": "Football",
     "question": "Who scored the winning goal in the 2010 World Cup final?",
-    "options": ["Andres Iniesta", "David Villa", "Xavi", "Torres"],
-    "answer": "AndresIniesta"
+    "options": ["Iniesta", "David Villa", "Xavi", "Torres"],
+    "answer": "Iniesta"
   },
   {
     "category": "Football",
@@ -527,19 +484,19 @@
   {
     "category": "Football",
     "question": "What is the name of Germany's top football division?",
-    "options": ["Bundesliga", "LaLiga", "SerieA", "Ligue1"],
+    "options": ["Bundesliga", "LaLiga", "Serie A", "Ligue 1"],
     "answer": "Bundesliga"
   },
   {
     "category": "Football",
     "question": "Who is the youngest goalscorer in Champions League history?",
     "options": ["Ansu Fati", "Mbappe", "Rodrygo", "Pato"],
-    "answer": "AnsuFati"
+    "answer": "Ansu Fati"
   },
   {
     "category": "Football",
     "question": "Which club uses the motto 'Més que un club'?",
-    "options": ["Barcelona", "PSG", "Juventus", "RealMadrid"],
+    "options": ["Barcelona", "PSG", "Juventus", "Real Madrid"],
     "answer": "Barcelona"
   },
   {
@@ -557,14 +514,19 @@
   {
     "category": "Football",
     "question": "Which African player played for both Chelsea and Barcelona?",
-    "options": ["Samuel Eto'o", "Drogba", "Mikel", "Salah"],
-    "answer": "SamuelEto'o"
+    "options": ["Eto'o", "Drogba", "Mikel", "Salah"],
+    "answer": "Eto'o"
   },
   {
     "category": "Football",
     "question": "Which female footballer has won the most Ballon d'Or Féminin?",
-    "options": ["Alexia Putellas", "SamKerr", "Megan Rapinoe", "Ada Hegerberg"],
-    "answer": "AlexiaPutellas"
+    "options": [
+      "Alexia Putellas",
+      "Sam Kerr",
+      "Megan Rapinoe",
+      "Aitana Bonmati"
+    ],
+    "answer": "Alexia Putellas"
   },
   {
     "category": "Football",
@@ -575,7 +537,7 @@
   {
     "category": "Football",
     "question": "Which club has a black and white striped kit?",
-    "options": ["Juventus", "InterMilan", "Valencia", "Tottenham"],
+    "options": ["Juventus", "Inter Milan", "Valencia", "Tottenham"],
     "answer": "Juventus"
   },
   {
@@ -587,8 +549,8 @@
   {
     "category": "Football",
     "question": "Who holds the record for most appearances in World Cup tournaments?",
-    "options": ["Lothar Matthäus", "Messi", "Maldini", "Cristiano Ronaldo"],
-    "answer": "LotharMatthäus"
+    "options": ["Lothar Matthäus", "Messi", "Maldini", "CR7"],
+    "answer": "Lothar Matthäus"
   },
   {
     "category": "Football",
@@ -600,13 +562,13 @@
     "category": "Football",
     "question": "Who is known as 'El Fenomeno'?",
     "options": ["Ronaldo Nazario", "Ronaldinho", "Zidane", "Cafu"],
-    "answer": "RonaldoNazario"
+    "answer": "Ronaldo Nazario"
   },
   {
     "category": "Football",
     "question": "Which African country hosted the 2010 FIFA World Cup?",
     "options": ["South Africa", "Egypt", "Nigeria", "Ghana"],
-    "answer": "SouthAfrica"
+    "answer": "South Africa"
   },
   {
     "category": "Football",
@@ -617,32 +579,32 @@
   {
     "category": "Football",
     "question": "Which country hosted the 2014 FIFA World Cup?",
-    "options": ["Brazil", "Germany", "Russia", "SouthAfrica"],
+    "options": ["Brazil", "Germany", "Russia", "South Africa"],
     "answer": "Brazil"
   },
   {
     "category": "Football",
     "question": "Who was the top scorer of the 2014 World Cup?",
     "options": ["James Rodriguez", "Messi", "Neymar", "Muller"],
-    "answer": "JamesRodriguez"
+    "answer": "James Rodriguez"
   },
   {
     "category": "Football",
     "question": "Which club is nicknamed 'The Old Lady'?",
-    "options": ["Juventus", "RealMadrid", "ACMilan", "Roma"],
+    "options": ["Juventus", "Real Madrid", "AC Milan", "Roma"],
     "answer": "Juventus"
   },
   {
     "category": "Football",
     "question": "How long is a standard professional football match?",
-    "options": ["90Minutes", "80Minutes", "100Minutes", "60Minutes"],
-    "answer": "90Minutes"
+    "options": ["90 Minutes", "80 Minutes", "100 Minutes", "120 Minutes"],
+    "answer": "90 Minutes"
   },
   {
     "category": "Football",
     "question": "Who won the Golden Boot at the 2022 FIFA World Cup?",
-    "options": ["Kylian Mbappe", "Messi", "Ronaldo", "Giroud"],
-    "answer": "KylianMbappe"
+    "options": ["Mbappe", "Messi", "Ronaldo", "Giroud"],
+    "answer": "Mbappe"
   },
   {
     "category": "Football",
@@ -654,19 +616,19 @@
     "category": "Football",
     "question": "Which footballer is known for the 'Rabona' skill move?",
     "options": ["Erik Lamela", "Ronaldo", "Pogba", "Zlatan"],
-    "answer": "ErikLamela"
+    "answer": "Erik Lamela"
   },
   {
     "category": "Football",
     "question": "Who is the coach of the France national team (as of 2024)?",
     "options": ["Didier Deschamps", "Zidane", "Laurent Blanc", "Domenech"],
-    "answer": "DidierDeschamps"
+    "answer": "Didier Deschamps"
   },
   {
     "category": "Football",
     "question": "Which African nation hosted the 2010 World Cup?",
     "options": ["South Africa", "Nigeria", "Egypt", "Morocco"],
-    "answer": "SouthAfrica"
+    "answer": "South Africa"
   },
   {
     "category": "Football",
@@ -677,8 +639,8 @@
   {
     "category": "Football",
     "question": "What position does N’Golo Kanté play?",
-    "options": ["Midfielder", "Defender", "Goalkeeper", "Striker"],
-    "answer": "Midfielder"
+    "options": ["CM", "CDM", "CAM", "RM"],
+    "answer": "CDM"
   },
   {
     "category": "Football",
@@ -695,14 +657,14 @@
   {
     "category": "Football",
     "question": "Which African striker played for Chelsea and is known for his headers?",
-    "options": ["Didier Drogba", "Samuel Etoo", "Yakubu", "Oba Martins"],
-    "answer": "DidierDrogba"
+    "options": ["Drogba", "Eto'o", "Yakubu", "Oba Martins"],
+    "answer": "Drogba"
   },
   {
     "category": "Football",
     "question": "Which Spanish club did Cristiano Ronaldo play for?",
     "options": ["Real Madrid", "Barcelona", "Atletico", "Valencia"],
-    "answer": "RealMadrid"
+    "answer": "Real Madrid"
   },
   {
     "category": "Football",
@@ -710,10 +672,10 @@
     "options": [
       "UEFA Champions League",
       "Europa League",
-      "Nations League",
+      "Super Cup",
       "Club World Cup"
     ],
-    "answer": "UEFAChampionsLeague"
+    "answer": "UEFA Champions League"
   },
   {
     "category": "Football",
@@ -742,14 +704,14 @@
   {
     "category": "Football",
     "question": "Which player is known for the phrase 'Siuuu'?",
-    "options": ["Cristiano Ronaldo", "Benzema", "Zlatan", "Mbappe"],
-    "answer": "CristianoRonaldo"
+    "options": ["CR7", "Benzema", "Zlatan", "Mbappe"],
+    "answer": "CR7"
   },
   {
     "category": "Football",
     "question": "Who is Nigeria’s all-time top scorer?",
     "options": ["Rashidi Yekini", "Kanu", "Musa", "Okocha"],
-    "answer": "RashidiYekini"
+    "answer": "Rashidi Yekini"
   },
   {
     "category": "Football",
@@ -760,13 +722,13 @@
   {
     "category": "Football",
     "question": "Which position does Virgil van Dijk play?",
-    "options": ["Defender", "Midfielder", "Goalkeeper", "Forward"],
-    "answer": "Defender"
+    "options": ["Right CB", "Left CB", "RB", "LB"],
+    "answer": "Left CB"
   },
   {
     "category": "Football",
     "question": "Which nation won Euro 2004 in a surprise victory?",
-    "options": ["Greece", "Portugal", "France", "Spain"],
+    "options": ["Greece", "Portugal", "Andorra", "Norway"],
     "answer": "Greece"
   },
   {
@@ -778,14 +740,14 @@
   {
     "category": "Football",
     "question": "Which club was founded by factory workers in Manchester?",
-    "options": ["Manchester City", "Manchester United", "Bolton", "Wigan"],
-    "answer": "ManchesterCity"
+    "options": ["Man City", "Man United", "Bolton", "Wigan"],
+    "answer": "Man City"
   },
   {
     "category": "Football",
     "question": "What is the name of the Portuguese top league?",
     "options": ["Primeira Liga", "Liga Nos", "Liga Pro", "Serie A"],
-    "answer": "PrimeiraLiga"
+    "answer": "Primeira Liga"
   },
   {
     "category": "Football",
@@ -803,13 +765,13 @@
     "category": "Football",
     "question": "Who won the Golden Glove at the 2022 World Cup?",
     "options": ["Emiliano Martinez", "Lloris", "Alisson", "Courtois"],
-    "answer": "EmilianoMartinez"
+    "answer": "Emiliano Martinez"
   },
   {
     "category": "Football",
     "question": "Which English player missed a penalty in Euro 2020 final?",
-    "options": ["Bukayo Saka", "Sterling", "Grealish", "Mount"],
-    "answer": "BukayoSaka"
+    "options": ["Sancho", "Sterling", "Grealish", "Mount"],
+    "answer": "Sancho"
   },
   {
     "category": "Football",
@@ -821,13 +783,13 @@
     "category": "Football",
     "question": "Which football team has a bird called 'Fred the Red' as mascot?",
     "options": ["Manchester United", "Liverpool", "Arsenal", "Newcastle"],
-    "answer": "ManchesterUnited"
+    "answer": "Manchester United"
   },
   {
     "category": "Football",
     "question": "Which former player is the current president of Liberia?",
-    "options": ["George Weah", "Jay Jay Okocha", "Kanu", "Etoo"],
-    "answer": "GeorgeWeah"
+    "options": ["George Weah", "Jay Jay Okocha", "Kanu", "Eto'o"],
+    "answer": "George Weah"
   },
   {
     "category": "Football",
@@ -838,7 +800,7 @@
       "Puma Orbita",
       "Adidas Telstar"
     ],
-    "answer": "AdidasAlRihla"
+    "answer": "Adidas AlRihla"
   },
   {
     "category": "Football",
@@ -849,14 +811,14 @@
   {
     "category": "Football",
     "question": "Which club does Kevin De Bruyne play for?",
-    "options": ["Manchester City", "Chelsea", "Arsenal", "PSG"],
-    "answer": "ManchesterCity"
+    "options": ["Manchester City", "Roma", "Napoli", "PSG"],
+    "answer": "Napoli"
   },
   {
     "category": "Football",
     "question": "Which team won the FIFA Club World Cup in 2023?",
-    "options": ["Manchester City", "Flamengo", "RealMadrid", "AlAhly"],
-    "answer": "ManchesterCity"
+    "options": ["Manchester City", "Flamengo", "Real Madrid", "Al Ahli"],
+    "answer": "Manchester City"
   },
   {
     "category": "Football",
@@ -868,7 +830,7 @@
     "category": "Football",
     "question": "Which team did Erling Haaland play for before Man City?",
     "options": ["Borussia Dortmund", "Salzburg", "Leeds", "Napoli"],
-    "answer": "BorussiaDortmund"
+    "answer": "Borussia Dortmund"
   },
   {
     "category": "Football",
@@ -879,8 +841,8 @@
   {
     "category": "Football",
     "question": "Which coach won the treble with Barcelona in 2009?",
-    "options": ["Pep Guardiola", "LuisEnrique", "FrankRijkaard", "Koeman"],
-    "answer": "PepGuardiola"
+    "options": ["Pep Guardiola", "Luis Enrique", "Frank Rijkaard", "Koeman"],
+    "answer": "Pep Guardiola"
   },
   {
     "category": "Football",
@@ -899,6 +861,6 @@
     "category": "Football",
     "question": "Which club has the nickname 'The Red Devils'?",
     "options": ["Manchester United", "Liverpool", "Arsenal", "Bayern"],
-    "answer": "ManchesterUnited"
+    "answer": "Manchester United"
   }
 ]
