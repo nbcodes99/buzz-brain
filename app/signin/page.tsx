@@ -8,7 +8,7 @@ export default function SignIn() {
         <h1 className="font-bold text-2xl md:text-4xl text-zinc-300 mb-2">
           Sign <span className="text-amber-600">In</span>
         </h1>
-        <p className="text-sm font-medium text-zinc-700 text-center mb-8">
+        <p className="text-sm font-medium text-zinc-600 text-center mb-8">
           Enter details to sign in
         </p>
         <form
@@ -32,8 +32,8 @@ export default function SignIn() {
             Sign In
           </button>
         </form>
-        <p className="text-sm text-center text-zinc-600 my-6 font-medium">
-          Don't have an account,{" "}
+        <p className="text-sm text-center text-zinc-500 my-6 font-medium">
+          Don't have an account?{" "}
           <Link href="/signup" className="text-indigo-600">
             signup
           </Link>

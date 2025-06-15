@@ -12,7 +12,7 @@ export default function SignUp() {
         <h1 className="font-bold text-2xl md:text-4xl text-zinc-300 mb-2">
           Create <span className="text-amber-600">Account</span>
         </h1>
-        <p className="text-sm font-medium text-zinc-700 text-center mb-8">
+        <p className="text-sm font-medium text-zinc-600 text-center mb-8">
           Enter details to create your account
         </p>
         <form
@@ -42,7 +42,7 @@ export default function SignUp() {
           </button>
         </form>
         <p className="text-sm text-center text-zinc-600 my-6 font-medium">
-          Already have an account,{" "}
+          Already have an account?{" "}
           <Link href="/signin" className="text-indigo-600">
             signin
           </Link>
