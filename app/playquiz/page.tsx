@@ -79,7 +79,7 @@ export default function PlayQuiz() {
   };
 
   return (
-    <section className="pb-24 pt-36 px_10 md:px-20 flex flex-col items-center w-full">
+    <section className="pb-24 pt-36 px-10 md:px-20 flex flex-col items-center w-full">
       <h1 className="font-bold text-3xl md:text-4xl text-zinc-200 animate-slideInLeft">
         Play <span className="text-amber-600">Quiz</span>
       </h1>
@@ -119,7 +119,7 @@ export default function PlayQuiz() {
             currentQuestionIndex < shuffledQuestions.length ? (
               <div
                 key={currentQuestionIndex}
-                className="bg-zinc-900 p-6 md:px-14 md:py-10 rounded-md shadow-md animate-zoomIn m-4"
+                className="bg-zinc-900 p-6 md:px-14 md:py-10 rounded-md shadow-md animate-zoomIn m-4 max-w-3xl"
               >
                 <p className="text-zinc-200 font-medium mb-10 text-center text-xl md:text-2xl">
                   {currentQuestion.question}
@@ -128,7 +128,6 @@ export default function PlayQuiz() {
                   {currentQuestion.options.map((opt, i) => {
                     const isCorrect = opt === currentQuestion.answer;
                     const isSelected = selectedOption === opt;
-
                     return (
                       <Button
                         key={i}
