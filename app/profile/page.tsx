@@ -1,12 +1,54 @@
-import React from "react";
+import { getServerSession } from "next-auth";
+import { db } from "@/app/drizzle/db";
+import { users } from "@/app/drizzle/schema";
+import { eq } from "drizzle-orm";
+import { authOptions } from "../api/auth/[...nextauth]/AuthOptions";
 
-export default function Profile() {
+export default async function ProfilePage() {
+  const session = await getServerSession(authOptions);
+
+  if (!session || !session.user) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <p className="text-lg text-zinc-400">
+          You're not signed in.{" "}
+          <a href="/signin" className="text-orange-500 underline">
+            Sign in
+          </a>
+        </p>
+      </div>
+    );
+  }
+
+  const dbUser = await db.query.users.findFirst({
+    where: eq(users.email, session.user.email),
+  });
+
+  if (!dbUser) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <p className="text-lg text-red-500">User not found in database.</p>
+      </div>
+    );
+  }
+
   return (
-    <>
-      <section className="pb-24 pt-10"></section>
-      <h1 className="text-zinc-400 text-sm text-center animate-zoomIn">
-        Not available at the moment.
-      </h1>
-    </>
+    <section className="pb-24 pt-36 px-8 md:px-20 flex flex-col items-center w-full">
+      <div className="flex flex-col items-start px-8 md:px-24 py-10 bg-zinc-900 shadow-md rounded-md w-full max-w-xl">
+        <h1 className="text-3xl font-bold text-white mb-6">Your Profile</h1>
+
+        <div className="space-y-4 text-zinc-300 w-full">
+          <p>
+            <span className="font-semibold">Username:</span> {dbUser.username}
+          </p>
+          <p>
+            <span className="font-semibold">Email:</span> {dbUser.email}
+          </p>
+          <p>
+            <span className="font-semibold">Score:</span> {dbUser.score}
+          </p>
+        </div>
+      </div>
+    </section>
   );
 }

@@ -44,7 +44,7 @@ export const authOptions: AuthOptions = {
     signIn: "/signin",
   },
   callbacks: {
-    async session({ session, user }) {
+    async session({ session }) {
       if (session.user) {
         const dbUser = await db.query.users.findFirst({
           where: eq(users.email, session.user.email!),
@@ -57,6 +57,9 @@ export const authOptions: AuthOptions = {
       }
 
       return session;
+    },
+    async redirect({ baseUrl }) {
+      return baseUrl;
     },
   },
 };

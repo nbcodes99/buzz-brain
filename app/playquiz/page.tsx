@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import { GrStatusGood } from "react-icons/gr";
 import { MdOutlineCancel } from "react-icons/md";
 import { FaGrinStars } from "react-icons/fa";
+import CustomButton from "../components/CustomButton";
 
 type Question = {
   category: string;
@@ -119,7 +120,7 @@ export default function PlayQuiz() {
             currentQuestionIndex < shuffledQuestions.length ? (
               <div
                 key={currentQuestionIndex}
-                className="bg-zinc-900 p-6 md:px-14 md:py-10 rounded-md shadow-md animate-zoomIn m-4 max-w-3xl"
+                className="bg-zinc-900 py-6 px-4 md:px-14 md:py-10 rounded-md shadow-md animate-zoomIn m-4 max-w-3xl"
               >
                 <p className="text-zinc-200 font-medium mb-10 text-center text-xl md:text-2xl">
                   {currentQuestion.question}
@@ -129,17 +130,13 @@ export default function PlayQuiz() {
                     const isCorrect = opt === currentQuestion.answer;
                     const isSelected = selectedOption === opt;
                     return (
-                      <Button
+                      <CustomButton
                         key={i}
-                        size="3"
-                        color="orange"
-                        variant="soft"
                         onClick={() => handleAnswer(opt)}
-                        className="w-full min-h-[60]"
                         disabled={answered}
                       >
                         {opt}
-                      </Button>
+                      </CustomButton>
                     );
                   })}
                 </div>

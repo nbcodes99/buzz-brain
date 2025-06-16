@@ -20,32 +20,32 @@
   {
     "category": "Geography",
     "question": "On which continent is the Sahara Desert located?",
-    "options": ["Africa", "Asia", "Australia", "SouthAmerica"],
+    "options": ["Africa", "Asia", "Australia", "South America"],
     "answer": "Africa"
   },
   {
     "category": "Geography",
     "question": "Which country has the largest land area?",
-    "options": ["Russia", "Canada", "China", "UnitedStates"],
+    "options": ["Russia", "Canada", "China", "United States"],
     "answer": "Russia"
   },
   {
     "category": "Geography",
     "question": "What is the smallest country in the world by land area?",
-    "options": ["VaticanCity", "Monaco", "SanMarino", "Liechtenstein"],
-    "answer": "VaticanCity"
+    "options": ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
+    "answer": "Vatican City"
   },
   {
     "category": "Geography",
     "question": "Which mountain has the highest peak above sea level?",
-    "options": ["MountEverest", "K2", "Kangchenjunga", "Lhotse"],
-    "answer": "MountEverest"
+    "options": ["Mount Everest", "K2", "Kangchen junga", "Lhotse"],
+    "answer": "Mount Everest"
   },
   {
     "category": "Geography",
     "question": "What body of water separates Saudi Arabia from Africa?",
-    "options": ["RedSea", "ArabianSea", "PersianGulf", "MediterraneanSea"],
-    "answer": "RedSea"
+    "options": ["Red Sea", "Arabian Sea", "Persian Gulf", "Mediterranean Sea"],
+    "answer": "Red Sea"
   },
   {
     "category": "Geography",
@@ -62,7 +62,7 @@
   {
     "category": "Geography",
     "question": "Which country is known as the “Land of the Rising Sun”?",
-    "options": ["Japan", "China", "Thailand", "SouthKorea"],
+    "options": ["Japan", "China", "Thailand", "South Korea"],
     "answer": "Japan"
   },
   {
@@ -81,7 +81,7 @@
     "category": "Geography",
     "question": "What hormone controls your body's fight or flight response?",
     "options": ["Blood Cells", "Adrenaline", "Cortisol", "Hormone"],
-    "answer": "Crust"
+    "answer": "Adrenaline"
   },
   {
     "category": "Geography",
@@ -104,7 +104,7 @@
   {
     "category": "Geography",
     "question": "Which continent is the least populated?",
-    "options": ["Antarctica", "Australia", "Europe", "SouthAmerica"],
+    "options": ["Antarctica", "Australia", "Europe", "South America"],
     "answer": "Antarctica"
   },
   {
@@ -116,14 +116,14 @@
   {
     "category": "Geography",
     "question": "Which country is both a continent and a country?",
-    "options": ["Australia", "Greenland", "India", "SouthAfrica"],
+    "options": ["Australia", "Greenland", "India", "South Africa"],
     "answer": "Australia"
   },
   {
     "category": "Geography",
     "question": "Which canal joins the Pacific and Atlantic oceans?",
-    "options": ["PanamaCanal", "SuezCanal", "KielCanal", "CorinthCanal"],
-    "answer": "PanamaCanal"
+    "options": ["Panama Canal", "Suez Canal", "Kiel Canal", "Corinth Canal"],
+    "answer": "Panama Canal"
   },
   {
     "category": "Geography",
@@ -134,8 +134,13 @@
   {
     "category": "Geography",
     "question": "What body of water is the world’s largest by surface area?",
-    "options": ["PacificOcean", "AtlanticOcean", "IndianOcean", "ArcticOcean"],
-    "answer": "PacificOcean"
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "answer": "Pacific Ocean"
   },
   {
     "category": "Geography",
@@ -146,14 +151,14 @@
   {
     "category": "Geography",
     "question": "The Great Barrier Reef is located off the coast of which country?",
-    "options": ["Australia", "Indonesia", "Fiji", "NewZealand"],
+    "options": ["Australia", "Indonesia", "Fiji", "New Zealand"],
     "answer": "Australia"
   },
   {
     "category": "Geography",
     "question": "In which continent is the Amazon Rainforest located?",
-    "options": ["SouthAmerica", "Africa", "Asia", "Australia"],
-    "answer": "SouthAmerica"
+    "options": ["South America", "Africa", "Asia", "Australia"],
+    "answer": "South America"
   },
   {
     "category": "Geography",
@@ -164,8 +169,8 @@
   {
     "category": "Geography",
     "question": "What is the world’s driest place (non-polar)?",
-    "options": ["AtacamaDesert", "Sahara", "GobiDesert", "DeathValley"],
-    "answer": "AtacamaDesert"
+    "options": ["Atacama Desert", "Sahara", "Gobi Desert", "Death Valley"],
+    "answer": "Atacama Desert"
   },
   {
     "category": "Geography",
@@ -182,8 +187,13 @@
   {
     "category": "Geography",
     "question": "The Nile River flows into which body of water?",
-    "options": ["MediterraneanSea", "RedSea", "IndianOcean", "AtlanticOcean"],
-    "answer": "MediterraneanSea"
+    "options": [
+      "Mediterranean Sea",
+      "RedSea",
+      "Indian Ocean",
+      "Atlantic Ocean"
+    ],
+    "answer": "Mediterranean Sea"
   },
   {
     "category": "Geography",
@@ -194,8 +204,13 @@
   {
     "category": "Geography",
     "question": "What is the smallest ocean?",
-    "options": ["ArcticOcean", "IndianOcean", "SouthernOcean", "AtlanticOcean"],
-    "answer": "ArcticOcean"
+    "options": [
+      "Arctic Ocean",
+      "Indian Ocean",
+      "Southern Ocean",
+      "Atlantic Ocean"
+    ],
+    "answer": "Arctic Ocean"
   },
   {
     "category": "Geography",
@@ -212,14 +227,14 @@
   {
     "category": "Geography",
     "question": "What is the capital of South Africa?",
-    "options": ["Pretoria", "CapeTown", "Johannesburg", "Durban"],
+    "options": ["Pretoria", "Cape Town", "Johannesburg", "Durban"],
     "answer": "Pretoria"
   },
   {
     "category": "Geography",
     "question": "Which sea is the world’s saltiest?",
-    "options": ["DeadSea", "RedSea", "MediterraneanSea", "CaspianSea"],
-    "answer": "DeadSea"
+    "options": ["Dead Sea", "RedSea", "Mediterranean Sea", "Caspian Sea"],
+    "answer": "Dead Sea"
   },
   {
     "category": "Geography",
@@ -230,8 +245,8 @@
   {
     "category": "Geography",
     "question": "Which desert is the largest in terms of land area?",
-    "options": ["AntarcticDesert", "Sahara", "ArcticDesert", "GobiDesert"],
-    "answer": "AntarcticDesert"
+    "options": ["Antarctic Desert", "Sahara", "Arctic Desert", "Gobi Desert"],
+    "answer": "Antarctic Desert"
   },
   {
     "category": "Geography",
@@ -242,25 +257,14 @@
   {
     "category": "Geography",
     "question": "What is the national language of Belgium?",
-    "options": ["Dutch", "French", "German", "AllOfTheAbove"],
-    "answer": "AllOfTheAbove"
+    "options": ["Dutch", "French", "German", "All Of The Above"],
+    "answer": "All Of The Above"
   },
   {
     "category": "Geography",
     "question": "In which city would you find the historic Acropolis?",
     "options": ["Athens", "Rome", "Istanbul", "Cairo"],
     "answer": "Athens"
-  },
-  {
-    "category": "Geography",
-    "question": "Which two countries share the longest international border?",
-    "options": [
-      "CanadaAndUSA",
-      "RussiaAndChina",
-      "ArgentinaAndChile",
-      "IndiaAndBangladesh"
-    ],
-    "answer": "CanadaAndUSA"
   },
   {
     "category": "Geography",
@@ -283,8 +287,8 @@
   {
     "category": "Geography",
     "question": "The city of Dubai is located in which country?",
-    "options": ["UnitedArabEmirates", "SaudiArabia", "Qatar", "Bahrain"],
-    "answer": "UnitedArabEmirates"
+    "options": ["UAE", "Saudi Arabia", "Qatar", "Bahrain"],
+    "answer": "UAE"
   },
   {
     "category": "Geography",
@@ -301,20 +305,20 @@
   {
     "category": "Geography",
     "question": "In which country would you find the city of Christchurch?",
-    "options": ["NewZealand", "Australia", "Canada", "UnitedKingdom"],
-    "answer": "NewZealand"
+    "options": ["New Zealand", "Australia", "Canada", "United Kingdom"],
+    "answer": "New Zealand"
   },
   {
     "category": "Geography",
     "question": "Which island country lies to the southeast of India?",
-    "options": ["SriLanka", "Maldives", "Indonesia", "Mauritius"],
-    "answer": "SriLanka"
+    "options": ["Sri Lanka", "Maldives", "Indonesia", "Mauritius"],
+    "answer": "Sri Lanka"
   },
   {
     "category": "Geography",
     "question": "What is the currency of Switzerland?",
-    "options": ["SwissFranc", "Euro", "Dollar", "Pound"],
-    "answer": "SwissFranc"
+    "options": ["Swiss Franc", "Euro", "Dollar", "Pound"],
+    "answer": "Swiss Franc"
   },
   {
     "category": "Geography",
@@ -332,12 +336,12 @@
     "category": "Geography",
     "question": "Which ocean lies to the east of Africa?",
     "options": [
-      "IndianOcean",
-      "AtlanticOcean",
-      "PacificOcean",
-      "SouthernOcean"
+      "Indian Ocean",
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
     ],
-    "answer": "IndianOcean"
+    "answer": "Indian Ocean"
   },
   {
     "category": "Geography",
@@ -508,8 +512,8 @@
   {
     "category": "geography",
     "question": "What is the capital of Iraq?",
-    "options": ["Baghdad", "Basra", "Mosul", "Erbil"],
-    "answer": "Baghdad"
+    "options": ["Bagh dad", "Basra", "Mosul", "Erbil"],
+    "answer": "Bagh dad"
   },
   {
     "category": "geography",
@@ -568,7 +572,7 @@
   {
     "category": "geography",
     "question": "What is the capital of New Zealand?",
-    "options": ["Wellington", "Auckland", "Christchurch", "Hamilton"],
+    "options": ["Wellington", "Auckland", "Christ church", "Hamilton"],
     "answer": "Wellington"
   },
   {

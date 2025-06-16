@@ -48,8 +48,13 @@
   {
     "category": "General",
     "question": "What is the world’s largest ocean?",
-    "options": ["PacificOcean", "AtlanticOcean", "IndianOcean", "ArcticOcean"],
-    "answer": "PacificOcean"
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "answer": "Pacific Ocean"
   },
   {
     "category": "General",
@@ -66,8 +71,8 @@
   {
     "category": "General",
     "question": "What was the name of the ship that the Pilgrims came to America on?",
-    "options": ["Mayflower", "SantaMaria", "Endeavour", "Discovery"],
-    "answer": "Mayflower"
+    "options": ["May flower", "Santa Maria", "Endeavour", "Discovery"],
+    "answer": "May flower"
   },
   {
     "category": "General",
@@ -114,8 +119,8 @@
   {
     "category": "General",
     "question": "What is the national flower of Japan?",
-    "options": ["CherryBlossom", "Lotus", "Rose", "Sunflower"],
-    "answer": "CherryBlossom"
+    "options": ["Cherry Blossom", "Lotus", "Rose", "Sunflower"],
+    "answer": "Cherry Blossom"
   },
   {
     "category": "General",
