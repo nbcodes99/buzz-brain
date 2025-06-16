@@ -1,11 +1,29 @@
-import React from "react";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
-import { MdMarkEmailUnread } from "react-icons/md";
-import { RiLockPasswordFill } from "react-icons/ri";
-import { Button, TextField } from "@radix-ui/themes";
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function SignUp() {
+  const router = useRouter();
+  const [form, setForm] = useState({
+    username: "",
+    email: "",
+    password: "",
+  });
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
+    const res = await fetch("/api/register", {
+      method: "POST",
+      body: JSON.stringify(form),
+    });
+
+    if (res.ok) {
+      router.push("/signin");
+    }
+  };
   return (
     <section className="pb-24 pt-36 px-8 md:px-20 flex flex-col items-center w-full">
       <div className="flex flex-col items-center px-8 md:px-24 py-10 bg-zinc-900 shadow-sm rounded-md animate-bounceIn">
@@ -16,22 +34,28 @@ export default function SignUp() {
           Enter details to create your account
         </p>
         <form
-          action=""
+          onSubmit={handleSubmit}
           className="flex flex-col items-center gap-y-6 w-full p-4"
         >
           <input
             type="text"
             placeholder="Your username"
+            value={form.username}
+            onChange={(e) => setForm({ ...form, username: e.target.value })}
             className="w-full px-3 md:px-4 py-2 md:py-3 bg-zinc-900 text-white border placeholder-zinc-500 border-zinc-700 rounded-md focus:outline-none focus:border-zinc-400 transition-colors"
           />
           <input
             type="email"
             placeholder="Your email"
+            value={form.email}
+            onChange={(e) => setForm({ ...form, email: e.target.value })}
             className="w-full px-3 md:px-4 py-2 md:py-3 bg-zinc-900 text-white border placeholder-zinc-500 border-zinc-700 rounded-md focus:outline-none focus:border-zinc-400 transition-colors"
           />
           <input
             type="password"
             placeholder="Your password"
+            value={form.password}
+            onChange={(e) => setForm({ ...form, password: e.target.value })}
             className="w-full px-3 md:px-4 py-2 md:py-3 bg-zinc-900 text-white border placeholder-zinc-500 border-zinc-700 rounded-md focus:outline-none focus:border-zinc-400 transition-colors"
           />
           <button

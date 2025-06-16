@@ -1,7 +1,20 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
+import { signIn } from "next-auth/react";
 import Link from "next/link";
 
 export default function SignIn() {
+  const [form, setForm] = useState({ email: "", password: "" });
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+    await signIn("credentials", {
+      email: form.email,
+      password: form.password,
+      callbackUrl: "/play",
+    });
+  };
   return (
     <section className="pb-24 pt-36 px-8 md:px-20 flex flex-col items-center w-full">
       <div className="flex flex-col items-center px-8 md:px-24 py-10 bg-zinc-900 shadow-sm rounded-md animate-bounceIn">
@@ -12,17 +25,21 @@ export default function SignIn() {
           Enter details to sign in
         </p>
         <form
-          action=""
+          onSubmit={handleSubmit}
           className="flex flex-col items-center gap-y-6 w-full p-4"
         >
           <input
             type="email"
             placeholder="Your email"
+            value={form.email}
+            onChange={(e) => setForm({ ...form, email: e.target.value })}
             className="w-full px-3 md:px-4 py-2 md:py-3 bg-zinc-900 text-white border placeholder-zinc-500 border-zinc-700 rounded-md focus:outline-none focus:border-zinc-400 transition-colors"
           />
           <input
             type="password"
             placeholder="Your password"
+            value={form.password}
+            onChange={(e) => setForm({ ...form, password: e.target.value })}
             className="w-full px-3 md:px-4 py-2 md:py-3 bg-zinc-900 text-white border placeholder-zinc-500 border-zinc-700 rounded-md focus:outline-none focus:border-zinc-400 transition-colors"
           />
           <button
