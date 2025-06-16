@@ -14,18 +14,18 @@ export default function CustomButton({
     <button
       className={`
         w-full
-        min-h-[60px]
+        min-h-[50px]
         px-2
         py-2
         bg-zinc-800
-        text-zinc-200
+        text-zinc-300
         font-medium
         rounded-md
         shadow-sm
         hover:bg-amber-900
-        transition
+        transition-colors
         text-sm
-        disabled:opacity-50
+        disabled:opacity-30
         disabled:cursor-not-allowed
         break-words
         text-center
