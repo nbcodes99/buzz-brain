@@ -52,7 +52,7 @@ export default function SignIn() {
         <p className="text-sm text-center text-zinc-500 my-6 font-medium">
           Don't have an account?{" "}
           <Link href="/signup" className="text-indigo-600">
-            signup
+            Sign Up
           </Link>
         </p>
       </div>

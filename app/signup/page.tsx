@@ -1,8 +1,11 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { use, useState } from "react";
 import Link from "next/link";
+import { Callout } from "@radix-ui/themes";
+import { GrStatusGood } from "react-icons/gr";
+import { BiError } from "react-icons/bi";
 
 export default function SignUp() {
   const router = useRouter();
@@ -11,6 +14,8 @@ export default function SignUp() {
     email: "",
     password: "",
   });
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
@@ -21,7 +26,19 @@ export default function SignUp() {
     });
 
     if (res.ok) {
-      router.push("/signin");
+      setSuccess(!false);
+      setForm({ username: "", email: "", password: "" });
+
+      setTimeout(() => {
+        setSuccess(false);
+        router.push("/signin");
+      }, 4000);
+    } else {
+      setError(!false);
+      setForm({ username: "", email: "", password: "" });
+      setTimeout(() => {
+        setError(false);
+      }, 4000);
     }
   };
   return (
@@ -33,6 +50,22 @@ export default function SignUp() {
         <p className="text-sm font-medium text-zinc-600 text-center mb-8">
           Enter details to create your account
         </p>
+        {success && (
+          <Callout.Root color="green" variant="soft" className="w-full">
+            <Callout.Icon>
+              <GrStatusGood />
+            </Callout.Icon>
+            <Callout.Text>Account Created Successfully!</Callout.Text>
+          </Callout.Root>
+        )}
+        {error && (
+          <Callout.Root color="red" variant="soft">
+            <Callout.Icon>
+              <BiError />
+            </Callout.Icon>
+            <Callout.Text>An error occurred!</Callout.Text>
+          </Callout.Root>
+        )}
         <form
           onSubmit={handleSubmit}
           className="flex flex-col items-center gap-y-6 w-full p-4"
@@ -68,7 +101,7 @@ export default function SignUp() {
         <p className="text-sm text-center text-zinc-600 my-6 font-medium">
           Already have an account?{" "}
           <Link href="/signin" className="text-indigo-600">
-            signin
+            Sign In
           </Link>
         </p>
       </div>
