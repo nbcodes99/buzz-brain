@@ -1,65 +1,62 @@
+import { DrizzleAdapter } from "@auth/drizzle-adapter";
 import { AuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { DrizzleAdapter } from "@auth/drizzle-adapter";
-import { users } from "@/app/drizzle/schema";
-import { eq, or } from "drizzle-orm";
-import bcrypt from "bcryptjs";
 import { db } from "@/app/drizzle/db";
-import type { Adapter } from "next-auth/adapters";
+import { users } from "@/app/drizzle/schema";
+import { eq } from "drizzle-orm";
+import { compare } from "bcryptjs";
+import { Adapter } from "next-auth/adapters";
 
 export const authOptions: AuthOptions = {
   adapter: DrizzleAdapter(db) as Adapter,
+  session: {
+    strategy: "database",
+  },
   providers: [
     CredentialsProvider({
       name: "Credentials",
       credentials: {
-        identifier: { label: "Username or Email", type: "text" },
+        email: { label: "Email", type: "text" },
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        if (!credentials?.identifier || !credentials?.password) return null;
+        if (!credentials?.email || !credentials?.password) return null;
 
-        const user = await db
-          .select()
-          .from(users)
-          .where(
-            or(
-              eq(users.email, credentials.identifier),
-              eq(users.username, credentials.identifier)
-            )
-          );
+        const user = await db.query.users.findFirst({
+          where: eq(users.email, credentials.email),
+        });
 
-        if (!user[0]) return null;
+        if (!user || !user.password) return null;
 
-        const passwordMatch = await bcrypt.compare(
-          credentials.password,
-          user[0].password
-        );
-
-        if (!passwordMatch) return null;
+        const isValid = await compare(credentials.password, user.password);
+        if (!isValid) return null;
 
         return {
-          id: user[0].id,
-          email: user[0].email,
-          username: user[0].username,
+          id: user.id,
+          name: user.username,
+          email: user.email,
+          score: Number(user.score ?? 0),
         };
       },
     }),
   ],
-  session: {
-    strategy: "database",
-  },
   pages: {
     signIn: "/signin",
   },
   callbacks: {
     async session({ session, user }) {
       if (session.user) {
-        session.user.id = user.id;
-        session.user.username = user.username;
+        const dbUser = await db.query.users.findFirst({
+          where: eq(users.email, session.user.email!),
+        });
+
+        if (dbUser) {
+          session.user.id = dbUser.id;
+          session.user.score = Number(dbUser.score ?? 0);
+        }
       }
+
       return session;
     },
   },
-  secret: process.env.NEXTAUTH_SECRET,
 };
