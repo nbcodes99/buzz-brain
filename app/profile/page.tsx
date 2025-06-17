@@ -3,6 +3,7 @@ import { db } from "@/app/drizzle/db";
 import { users } from "@/app/drizzle/schema";
 import { eq } from "drizzle-orm";
 import { authOptions } from "../api/auth/[...nextauth]/AuthOptions";
+import LogoutButton from "../components/LogOutButton";
 
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions);
@@ -48,6 +49,7 @@ export default async function ProfilePage() {
             <span className="font-semibold">Score:</span> {dbUser.score}
           </p>
         </div>
+        <LogoutButton />
       </div>
     </section>
   );

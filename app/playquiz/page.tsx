@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Select } from "@radix-ui/themes";
+import { Select } from "@radix-ui/themes";
 import React, { useState, useEffect } from "react";
 import { GrStatusGood } from "react-icons/gr";
 import { MdOutlineCancel } from "react-icons/md";
@@ -61,14 +61,37 @@ export default function PlayQuiz() {
     loadQuestions();
   }, [selectedCategory]);
 
+  const updateBackendScore = async (newScore: number) => {
+    try {
+      const res = await fetch("/api/update-score", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ score: newScore }),
+      });
+
+      const data = await res.json();
+      console.log("Score update response:", data);
+
+      if (!res.ok) {
+        throw new Error(data.error || "Score update failed");
+      }
+    } catch (error) {
+      console.error("Failed to update score:", error);
+    }
+  };
+
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
 
-  const handleAnswer = (option: string) => {
+  const handleAnswer = async (option: string) => {
     if (!answered) {
       setSelectedOption(option);
+
       if (option === currentQuestion.answer) {
-        setScore((prev) => prev + 1);
+        const newScore = score + 1;
+        setScore(newScore);
+        await updateBackendScore(newScore);
       }
+
       setAnswered(true);
 
       setTimeout(() => {
@@ -105,7 +128,6 @@ export default function PlayQuiz() {
           </Select.Content>
         </Select.Root>
       </div>
-
       {loading && (
         <p className="text-zinc-400 mt-10 font-medium">Loading questions...</p>
       )}
@@ -125,19 +147,15 @@ export default function PlayQuiz() {
                   {currentQuestion.question}
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full px-6">
-                  {currentQuestion.options.map((opt, i) => {
-                    const isCorrect = opt === currentQuestion.answer;
-                    const isSelected = selectedOption === opt;
-                    return (
-                      <CustomButton
-                        key={i}
-                        onClick={() => handleAnswer(opt)}
-                        disabled={answered}
-                      >
-                        {opt}
-                      </CustomButton>
-                    );
-                  })}
+                  {currentQuestion.options.map((opt, i) => (
+                    <CustomButton
+                      key={i}
+                      onClick={() => handleAnswer(opt)}
+                      disabled={answered}
+                    >
+                      {opt}
+                    </CustomButton>
+                  ))}
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-x-2 text-zinc-400 text-sm mt-6 md:mt-10 font-medium text-center">

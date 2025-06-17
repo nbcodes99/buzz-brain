@@ -12,19 +12,23 @@ export default async function LeaderboardPage() {
   return (
     <section className="pt-24 px-6">
       <h1 className="text-2xl font-bold mb-6 text-white">🏆 Leaderboard</h1>
-      <ul className="text-white space-y-4">
-        {topUsers.map((user, i) => (
-          <li
-            key={i}
-            className="bg-zinc-800 p-4 rounded shadow flex justify-between"
-          >
-            <span>
-              {i + 1}. {user.username}
-            </span>
-            <span>{user.score} pts</span>
-          </li>
-        ))}
-      </ul>
+      {topUsers.length > 0 ? (
+        <ul className="text-white space-y-4">
+          {topUsers.map((user, i) => (
+            <li
+              key={i}
+              className="bg-zinc-800 p-4 rounded shadow flex justify-between"
+            >
+              <span>
+                {i + 1}. {user.username}
+              </span>
+              <span>{user.score} pts</span>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-zinc-400">No scores yet. Be the first to play!</p>
+      )}
     </section>
   );
 }

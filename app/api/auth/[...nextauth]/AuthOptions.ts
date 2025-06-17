@@ -10,7 +10,6 @@ import { Adapter } from "next-auth/adapters";
 export const authOptions: AuthOptions = {
   adapter: DrizzleAdapter(db) as Adapter,
 
-  // ✅ Fix: use JWT strategy to support credentials login
   session: {
     strategy: "jwt",
   },

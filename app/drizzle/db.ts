@@ -9,3 +9,4 @@ const pool = new Pool({
 export const db = drizzle(pool, {
   schema: { users, sessions, accounts },
 });
+export type DB = typeof db;
