@@ -4,6 +4,7 @@ import { users } from "@/app/drizzle/schema";
 import { eq } from "drizzle-orm";
 import { authOptions } from "../api/auth/[...nextauth]/AuthOptions";
 import LogoutButton from "../components/LogOutButton";
+import Link from "next/link";
 
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions);
@@ -11,11 +12,11 @@ export default async function ProfilePage() {
   if (!session || !session.user) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <p className="text-lg text-zinc-400">
-          You're not signed in.{" "}
-          <a href="/signin" className="text-orange-500 underline">
+        <p className="text-zinc-400 flex flex-col items-center">
+          You're not Signed In.{" "}
+          <Link href="/signin" className="text-orange-500 underline">
             Sign in
-          </a>
+          </Link>
         </p>
       </div>
     );
