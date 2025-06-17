@@ -12,8 +12,9 @@ export default function SignIn() {
     await signIn("credentials", {
       email: form.email,
       password: form.password,
-      callbackUrl: "/play",
+      callbackUrl: "/",
     });
+    console.log("signed in");
   };
   return (
     <section className="pb-24 pt-36 px-8 md:px-20 flex flex-col items-center w-full">

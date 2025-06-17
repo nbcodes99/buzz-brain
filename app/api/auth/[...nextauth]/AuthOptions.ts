@@ -9,9 +9,12 @@ import { Adapter } from "next-auth/adapters";
 
 export const authOptions: AuthOptions = {
   adapter: DrizzleAdapter(db) as Adapter,
+
+  // ✅ Fix: use JWT strategy to support credentials login
   session: {
-    strategy: "database",
+    strategy: "jwt",
   },
+
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -40,26 +43,33 @@ export const authOptions: AuthOptions = {
       },
     }),
   ],
+
   pages: {
     signIn: "/signin",
   },
+
   callbacks: {
-    async session({ session }) {
-      if (session.user) {
-        const dbUser = await db.query.users.findFirst({
-          where: eq(users.email, session.user.email!),
-        });
-
-        if (dbUser) {
-          session.user.id = dbUser.id;
-          session.user.score = Number(dbUser.score ?? 0);
-        }
+    async jwt({ token, user }) {
+      if (user) {
+        token.id = user.id;
+        token.score = user.score;
+        token.email = user.email;
       }
+      return token;
+    },
 
+    async session({ session, token }) {
+      if (session.user && token) {
+        session.user.id = token.id as string;
+        session.user.score = token.score as number;
+        session.user.email = token.email as string;
+      }
       return session;
     },
-    async redirect({ baseUrl }) {
-      return baseUrl;
+
+    async redirect({ url, baseUrl }) {
+      if (url.startsWith(baseUrl)) return url;
+      return "/";
     },
   },
 };
