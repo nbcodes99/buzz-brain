@@ -28,43 +28,43 @@ export default function Footer() {
             <a href="https://nbcodes.substack.com/">
               <SiSubstack />
             </a>
-            <a href="https://www.youtube.com/@nb.codes99">
+            {/* <a href="https://www.youtube.com/@nb.codes99">
               <FaYoutube />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="flex items-center gap-x-14 mt-20 md:mt-0 ">
           <div className="flex flex-col items-start">
             <h1 className="font-bold text-xl mb-3">Help & Info</h1>
-            <span className="flex flex-col gap-y-2">
-              <a href="/" className="text-sm text-zinc-300">
+            <span className="flex flex-col gap-y-2 text-zinc-400">
+              <a href="/" className="text-sm hover:text-zinc-300">
                 About Us
               </a>
-              <a href="www.gmail.com" className="text-sm text-zinc-300">
-                Contact Us
+              <a href="/signup" className="text-sm hover:text-zinc-300">
+                Sign Up
               </a>
-              <a href="#faq" className="text-sm text-zinc-300">
+              <a href="/signin" className="text-sm hover:text-zinc-300">
+                Sign In
+              </a>
+              <a href="/" className="text-sm hover:text-zinc-300">
                 FAQ
-              </a>
-              <a href="/" className="text-sm text-zinc-300">
-                Support
               </a>
             </span>
           </div>
           <div className="flex flex-col items-start">
             <h1 className="font-bold text-xl mb-3">Quick Links</h1>
-            <span className="flex flex-col gap-y-2">
-              <a href="/playquiz" className="text-sm text-zinc-300">
+            <span className="flex flex-col gap-y-2 text-zinc-400">
+              <a href="/profile" className="text-sm hover:text-zinc-300">
+                Profile
+              </a>
+              <a href="/playquiz" className="text-sm hover:text-zinc-300">
                 Play Quiz
               </a>
-              <a href="/categories" className="text-sm text-zinc-300">
+              <a href="/categories" className="text-sm hover:text-zinc-300">
                 Categories
               </a>
-              <a href="/leaderboard" className="text-sm text-zinc-300">
+              <a href="/leaderboard" className="text-sm hover:text-zinc-300">
                 Leaderboard
-              </a>
-              <a href="/profile" className="text-sm text-zinc-300">
-                Profile
               </a>
             </span>
           </div>
