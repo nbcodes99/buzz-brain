@@ -22,7 +22,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("DB error:", error);
+    console.error("Database error:", error);
     return NextResponse.json(
       { error: "Failed to update score" },
       { status: 500 }

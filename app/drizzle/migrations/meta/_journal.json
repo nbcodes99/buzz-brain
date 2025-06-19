@@ -15,6 +15,20 @@
       "when": 1750081979663,
       "tag": "0001_sour_quasimodo",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1750333971837,
+      "tag": "0002_slow_umar",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1750334655134,
+      "tag": "0003_optimal_victor_mancha",
+      "breakpoints": true
     }
   ]
 }

@@ -5,6 +5,7 @@ import { eq } from "drizzle-orm";
 import { authOptions } from "../api/auth/[...nextauth]/AuthOptions";
 import LogoutButton from "../components/LogOutButton";
 import Link from "next/link";
+import { format } from "date-fns";
 
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions);
@@ -47,7 +48,15 @@ export default async function ProfilePage() {
             <span className="font-semibold">Email:</span> {dbUser.email}
           </p>
           <p>
+            <span className="font-semibold">Total Questions Attempted:</span>{" "}
+            {dbUser.totalQuestionsAttempted}
+          </p>
+          <p>
             <span className="font-semibold">Score:</span> {dbUser.score}
+          </p>
+          <p>
+            <span className="font-semibold">Joined:</span>{" "}
+            {format(new Date(dbUser.createdAt), "do MMMM, yyyy")}
           </p>
         </div>
         <LogoutButton />
