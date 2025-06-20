@@ -12,12 +12,24 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const { score } = await req.json();
+  // const { score } = await req.json();
+
+  // try {
+  //   await db
+  //     .update(users)
+  //     .set({ score: sql`${users.score} + 1` })
+  //     .where(eq(users.email, session.user.email));
+
+  const { isCorrect } = await req.json();
+  const correct = Boolean(isCorrect);
 
   try {
     await db
       .update(users)
-      .set({ score: sql`${users.score} + 1` })
+      .set({
+        ...(correct ? { score: sql`${users.score} + 1` } : {}),
+        totalQuestionsAttempted: sql`${users.totalQuestionsAttempted} + 1`,
+      })
       .where(eq(users.email, session.user.email));
 
     return NextResponse.json({ success: true });

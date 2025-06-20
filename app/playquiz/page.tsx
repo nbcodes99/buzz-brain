@@ -61,12 +61,20 @@ export default function PlayQuiz() {
     loadQuestions();
   }, [selectedCategory]);
 
-  const updateBackendScore = async (newScore: number) => {
+  // const updateBackendScore = async (newScore: number) => {
+  //   try {
+  //     const res = await fetch("/api/update-score", {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify({ score: newScore }),
+  //     });
+
+  const updateBackendScore = async (isCorrect: boolean) => {
     try {
       const res = await fetch("/api/update-score", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ score: newScore }),
+        body: JSON.stringify({ isCorrect }),
       });
 
       const data = await res.json();
@@ -87,9 +95,10 @@ export default function PlayQuiz() {
       setSelectedOption(option);
 
       if (option === currentQuestion.answer) {
-        const newScore = score + 1;
-        setScore(newScore);
-        await updateBackendScore(newScore);
+        setScore(score + 1);
+        await updateBackendScore(true);
+      } else {
+        await updateBackendScore(false);
       }
 
       setAnswered(true);

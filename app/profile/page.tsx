@@ -6,6 +6,7 @@ import { authOptions } from "../api/auth/[...nextauth]/AuthOptions";
 import LogoutButton from "../components/LogOutButton";
 import Link from "next/link";
 import { format } from "date-fns";
+import ProfileInfoCard from "../components/ProfileInfoCard";
 
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions);
@@ -37,27 +38,21 @@ export default async function ProfilePage() {
 
   return (
     <section className="pb-24 pt-36 px-8 md:px-20 flex flex-col items-center w-full">
-      <div className="flex flex-col items-start px-8 md:px-24 py-10 bg-zinc-900 shadow-md rounded-md w-full max-w-xl">
+      <div className="flex flex-col items-center px-8 md:px-24 py-10 bg-zinc-900 shadow-md rounded-md w-full max-w-xl">
         <h1 className="text-3xl font-bold text-white mb-6">Your Profile</h1>
 
-        <div className="space-y-4 text-zinc-300 w-full">
-          <p>
-            <span className="font-semibold">Username:</span> {dbUser.username}
-          </p>
-          <p>
-            <span className="font-semibold">Email:</span> {dbUser.email}
-          </p>
-          <p>
-            <span className="font-semibold">Total Questions Attempted:</span>{" "}
-            {dbUser.totalQuestionsAttempted}
-          </p>
-          <p>
-            <span className="font-semibold">Score:</span> {dbUser.score}
-          </p>
-          <p>
-            <span className="font-semibold">Joined:</span>{" "}
-            {format(new Date(dbUser.createdAt), "do MMMM, yyyy")}
-          </p>
+        <div className="space-y-4 text-zinc-300 w-full flex flex-col items-start">
+          <ProfileInfoCard title={"Username"} value={dbUser.username} />
+          <ProfileInfoCard title={"Email"} value={dbUser.email} />
+          <ProfileInfoCard
+            title={"Total"}
+            value={dbUser.totalQuestionsAttempted}
+          />
+          <ProfileInfoCard title={"Score"} value={dbUser.score} />
+          <ProfileInfoCard
+            title={"Joined"}
+            value={format(new Date(dbUser.createdAt), "do MMMM, yyyy")}
+          />
         </div>
         <LogoutButton />
       </div>
